@@ -1,0 +1,1271 @@
+{
+ "sobre": "Golden set de busca em pt-BR do índice produtos_ptbr. Cada expectativa é uma propriedade semântica conferida no próprio hit ou contra o catálogo local (data/algolia/registros.json, os records que o conector indexou; gere com `uv run python -m ingest.indexar`, que é ensaio e não escreve na Algolia). Nada aqui vem do ranking atual do índice. Contagens do catálogo são calculadas na hora pela `regra` de cada expectativa, então a regra é a explicação de como o número foi derivado. Campo `_pesquisavel` = texto dos searchableAttributes de ingest/config/indice.json. `achado` registra uma falha real já diagnosticada: a consulta continua falhando (e o código de saída continua 1) até a configuração ser corrigida; não afrouxar a expectativa para passar.",
+ "indice_padrao": "produtos_ptbr",
+ "parametros_comuns": {
+  "hitsPerPage": 20,
+  "attributesToRetrieve": [
+   "nome",
+   "marca",
+   "categoria",
+   "categorias",
+   "genero",
+   "cor",
+   "grupo_cor",
+   "preco",
+   "preco_de",
+   "em_promocao",
+   "em_estoque",
+   "tamanhos_disponiveis",
+   "grade"
+  ],
+  "attributesToHighlight": [],
+  "attributesToSnippet": [],
+  "analytics": false,
+  "clickAnalytics": false
+ },
+ "consultas": [
+  {
+   "id": "acento-tenis",
+   "grupo": "acento ausente",
+   "consulta": "tenis",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Quem digita no celular não põe acento. Tênis = categoria Tênis ou nome com a palavra (há 'Tênis slip-on' catalogados em Mocassins). O recall usa a categoria inteira (122 records).",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Tênis"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "tênis"
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "categoria",
+      "op": "igual",
+      "valor": "Tênis"
+     }
+    },
+    {
+     "tipo": "nenhum",
+     "condicao": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": [
+       "sapatênis",
+       "sapatenis"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "acento-calca",
+   "grupo": "acento ausente",
+   "consulta": "calca",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "'calca' sem cedilha tem de achar calça. Como última palavra, também é prefixo de 'Calçados' (categorias.lvl1 é pesquisável), então só o topo é conferido por precisão; o recall é sobre os records com 'calça' no nome.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": [
+       "calça",
+       "calças"
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": [
+       "calça",
+       "calças"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "acento-sinonimo-oculos-escuros",
+   "grupo": "acento ausente",
+   "consulta": "oculos escuros",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Sem acento e com sinônimo ('óculos escuros' = 'óculos de sol'): nenhum produto diz 'escuros' para óculos, todos dizem 'Óculos de sol'.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "óculos"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "óculos"
+     }
+    }
+   ]
+  },
+  {
+   "id": "plural-bolsas",
+   "grupo": "plural",
+   "consulta": "bolsas",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "ignorePlurals pt: 'bolsas' acha 'bolsa'. Toda a categoria Feminino > Bolsas (inclui carteiras e clutches, como na árvore do catálogo) tem de vir; no topo, só bolsas (categoria ou nome).",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categorias.lvl1",
+        "op": "igual",
+        "valor": "Feminino > Bolsas"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "bolsa"
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "categorias.lvl1",
+      "op": "igual",
+      "valor": "Feminino > Bolsas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "plural-camisetas",
+   "grupo": "plural",
+   "consulta": "camisetas",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Plural de 'camiseta'; o nome dos produtos está no singular.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Camisetas"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "camiseta"
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "categoria",
+      "op": "igual",
+      "valor": "Camisetas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "typo-tenix",
+   "grupo": "erro de digitação",
+   "consulta": "tenix",
+   "nota": "Uma letra trocada (5 letras admitem 1 erro). O topo tem de ser tênis.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Tênis"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "tênis"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "typo-jaqeta",
+   "grupo": "erro de digitação",
+   "consulta": "jaqeta",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Falta o 'u' de jaqueta. Recall sobre os records com 'jaqueta' no nome.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Casacos e jaquetas"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "jaqueta"
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "jaqueta"
+     }
+    }
+   ]
+  },
+  {
+   "id": "typo-marca-michael-kros",
+   "grupo": "erro de digitação",
+   "consulta": "michael kros",
+   "nota": "Marca com letras trocadas ('kros' por 'kors').",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "campo": "marca",
+      "op": "igual",
+      "valor": "Michael Kors"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sinonimo-sneaker",
+   "grupo": "sinônimo",
+   "consulta": "sneaker",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Anglicismo comum. Nenhum record tem 'sneaker'; tudo vem do sinônimo tênis/sneaker.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Tênis"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "tênis"
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "categoria",
+      "op": "igual",
+      "valor": "Tênis"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sinonimo-hoodie",
+   "grupo": "sinônimo",
+   "consulta": "hoodie",
+   "achado": "Corrigido em 08/10/2026: o sinônimo de mão dupla moletom/hoodie trazia 'Calça de moletom'; virou one-way hoodie → 'moletom com capuz', 'blusa de moletom'.",
+   "nota": "Hoodie é o moletom de capuz (blusa). Calça de moletom não é hoodie: a expectativa de precisão é semântica, não depende de como o sinônimo foi escrito.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "moletom"
+     }
+    },
+    {
+     "tipo": "nenhum",
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Calças"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "calça"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sinonimo-puffer",
+   "grupo": "sinônimo",
+   "consulta": "puffer",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "achado": "Corrigido em 08/10/2026: o sinônimo só cobria 'jaqueta de plumas' (24 de 29); virou one-way puffer → jaqueta, casaco e colete de plumas. Logo depois da troca a multi-query ainda devolveu 28 por alguns minutos (consistência eventual ou cache; causa não confirmada) e depois 29.",
+   "nota": "Puffer é a peça de plumas, jaqueta ou casaco. O catálogo tem 'Jaqueta de plumas' e 'Casaco de plumas'; os dois são puffer.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "plumas"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "plumas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sinonimo-loafer",
+   "grupo": "sinônimo",
+   "consulta": "loafer",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Loafer = mocassim. A categoria Mocassins do catálogo mistura chinelos e alpargatas, então o recall é sobre os produtos chamados 'Mocassim', e o topo tem de ser eles.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 5,
+     "condicao": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "mocassim"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "mocassim"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cor-bolsa-vermelha",
+   "grupo": "concordância de cor",
+   "consulta": "bolsa vermelha",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "O catálogo grava a cor no masculino ('vermelho'); a cliente escreve no feminino. Os 5 primeiros têm de ser bolsas vermelhas e todas as bolsas do grupo de cor vermelho têm de vir.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 5,
+     "condicao": {
+      "todas": [
+       {
+        "campo": "categorias.lvl1",
+        "op": "igual",
+        "valor": "Feminino > Bolsas"
+       },
+       {
+        "campo": "grupo_cor",
+        "op": "igual",
+        "valor": "vermelho"
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categorias.lvl1",
+        "op": "igual",
+        "valor": "Feminino > Bolsas"
+       },
+       {
+        "campo": "grupo_cor",
+        "op": "igual",
+        "valor": "vermelho"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "cor-camiseta-preta",
+   "grupo": "concordância de cor",
+   "consulta": "camiseta preta",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Concordância preto/preta. Cor aceita pelo grupo de cor ou pela palavra no nome da cor.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 10,
+     "condicao": {
+      "todas": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Camisetas"
+       },
+       {
+        "qualquer": [
+         {
+          "campo": "grupo_cor",
+          "op": "igual",
+          "valor": "preto"
+         },
+         {
+          "campo": "cor",
+          "op": "contem_palavra",
+          "valor": "preto"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Camisetas"
+       },
+       {
+        "campo": "grupo_cor",
+        "op": "igual",
+        "valor": "preto"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "cor-tenis-branco",
+   "grupo": "concordância de cor",
+   "consulta": "tênis branco",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Tênis branco: cor pelo grupo ou pela palavra no nome da cor (um 'preto e branco' é aceitável).",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 10,
+     "condicao": {
+      "todas": [
+       {
+        "qualquer": [
+         {
+          "campo": "categoria",
+          "op": "igual",
+          "valor": "Tênis"
+         },
+         {
+          "campo": "nome",
+          "op": "contem_palavra",
+          "valor": "tênis"
+         }
+        ]
+       },
+       {
+        "qualquer": [
+         {
+          "campo": "grupo_cor",
+          "op": "igual",
+          "valor": "branco"
+         },
+         {
+          "campo": "cor",
+          "op": "contem_palavra",
+          "valor": "branco"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Tênis"
+       },
+       {
+        "campo": "grupo_cor",
+        "op": "igual",
+        "valor": "branco"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "genero-tenis-feminino",
+   "grupo": "gênero",
+   "consulta": "tênis feminino",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Gênero na consulta (o campo genero é pesquisável).",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "todas": [
+       {
+        "campo": "genero",
+        "op": "igual",
+        "valor": "Feminino"
+       },
+       {
+        "qualquer": [
+         {
+          "campo": "categoria",
+          "op": "igual",
+          "valor": "Tênis"
+         },
+         {
+          "campo": "nome",
+          "op": "contem_palavra",
+          "valor": "tênis"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "categorias.lvl2",
+      "op": "igual",
+      "valor": "Feminino > Calçados > Tênis"
+     }
+    }
+   ]
+  },
+  {
+   "id": "genero-tenis-homem",
+   "grupo": "gênero",
+   "consulta": "tenis homem",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Gênero por sinônimo (homem = masculino) e sem acento.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "todas": [
+       {
+        "campo": "genero",
+        "op": "igual",
+        "valor": "Masculino"
+       },
+       {
+        "qualquer": [
+         {
+          "campo": "categoria",
+          "op": "igual",
+          "valor": "Tênis"
+         },
+         {
+          "campo": "nome",
+          "op": "contem_palavra",
+          "valor": "tênis"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "categorias.lvl2",
+      "op": "igual",
+      "valor": "Masculino > Calçados > Tênis"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tamanho-tenis-38",
+   "grupo": "tamanho (filtro)",
+   "consulta": "tenis",
+   "parametros": {
+    "hitsPerPage": 1000,
+    "facetFilters": [
+     "tamanhos_disponiveis:38"
+    ]
+   },
+   "nota": "O filtro de tamanho só pode trazer o que tem o 38 em estoque, e tem de trazer todos os tênis nessa condição.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "tamanhos_disponiveis",
+      "op": "inclui",
+      "valor": "38"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Tênis"
+       },
+       {
+        "campo": "tamanhos_disponiveis",
+        "op": "inclui",
+        "valor": "38"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "tamanho-tenis-39-no-texto",
+   "grupo": "tamanho (texto)",
+   "consulta": "tênis 39",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Quem busca digita o tamanho junto ('tênis 39'). Com tamanhos_disponiveis pesquisável, o número só casa com o tamanho em estoque. Achado de 08/10/2026: antes dava 0, porque o tamanho era só facet.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "tamanhos_disponiveis",
+      "op": "inclui",
+      "valor": "39"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Tênis"
+       },
+       {
+        "campo": "tamanhos_disponiveis",
+        "op": "inclui",
+        "valor": "39"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "tamanho-tenis-tamanho-39",
+   "grupo": "tamanho (texto)",
+   "consulta": "tênis tamanho 39",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "'tamanho' (e 'número', 'tam') é optionalWord: sem isso a palavra seria obrigatória e daria 0.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "tamanhos_disponiveis",
+      "op": "inclui",
+      "valor": "39"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Tênis"
+       },
+       {
+        "campo": "tamanhos_disponiveis",
+        "op": "inclui",
+        "valor": "39"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "tamanho-camiseta-m",
+   "grupo": "tamanho (filtro)",
+   "consulta": "camiseta",
+   "parametros": {
+    "hitsPerPage": 1000,
+    "facetFilters": [
+     "tamanhos_disponiveis:M"
+    ]
+   },
+   "nota": "Tamanho em letra (grade de roupa).",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "tamanhos_disponiveis",
+      "op": "inclui",
+      "valor": "M"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Camisetas"
+       },
+       {
+        "campo": "tamanhos_disponiveis",
+        "op": "inclui",
+        "valor": "M"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "preco-camiseta-ate-300-filtro",
+   "grupo": "preço",
+   "consulta": "camiseta",
+   "parametros": {
+    "hitsPerPage": 1000,
+    "numericFilters": [
+     "preco<=300"
+    ]
+   },
+   "nota": "'Até R$ 300' como filtro numérico (como a loja faz no slider).",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "preco",
+      "op": "menor_igual",
+      "valor": 300
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Camisetas"
+       },
+       {
+        "campo": "preco",
+        "op": "menor_igual",
+        "valor": 300
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "preco-camiseta-ate-300-reais-texto",
+   "grupo": "preço",
+   "consulta": "camiseta até 300 reais",
+   "limitacao_conhecida": "A busca textual não entende preço: sem filtro, '300' e 'reais' viram palavras obrigatórias e nenhum record as tem. Resultado honesto hoje é zero (demanda perdida). Resolver fora da busca pura: o agente (Agent Studio) ou a loja traduzem para numericFilters.",
+   "nota": "Documenta a limitação. O esperado vem do catálogo: nenhum record tem '300' ou 'reais' em atributo pesquisável, então a consulta com todas as palavras obrigatórias dá 0.",
+   "expectativas": [
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "todas": [
+       {
+        "campo": "_pesquisavel",
+        "op": "contem_palavra",
+        "valor": "300"
+       },
+       {
+        "campo": "_pesquisavel",
+        "op": "contem_palavra",
+        "valor": "reais"
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "nb_hits",
+     "igual": 0
+    }
+   ]
+  },
+  {
+   "id": "rule-cinto-promocao",
+   "grupo": "Rule de promoção",
+   "consulta": "cinto promoção",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "A Rule tira 'promoção' da busca e filtra em_promocao:true. Sem a Rule, 'promoção' seria palavra obrigatória e não casaria com nada.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "em_promocao",
+      "op": "igual",
+      "valor": true
+     }
+    },
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "cinto"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "cinto"
+       },
+       {
+        "campo": "em_promocao",
+        "op": "igual",
+        "valor": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "rule-cachecol-liquidacao-sem-acento",
+   "grupo": "Rule de promoção",
+   "consulta": "cachecol liquidacao",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Outra Rule ('liquidação'), digitada sem acento e sem cedilha, como no celular.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "em_promocao",
+      "op": "igual",
+      "valor": true
+     }
+    },
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": [
+       "cachecol",
+       "echarpe"
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "cachecol"
+       },
+       {
+        "campo": "em_promocao",
+        "op": "igual",
+        "valor": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sapatenis-com-acento",
+   "grupo": "tênis × sapatênis",
+   "consulta": "sapatênis",
+   "nota": "Sapatênis não é tênis e não existe no catálogo. Esperado: zero (demanda perdida para o MCP), nunca um tênis disfarçado de resultado.",
+   "expectativas": [
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "campo": "_pesquisavel",
+      "op": "contem_palavra",
+      "valor": [
+       "sapatênis",
+       "sapatenis"
+      ]
+     }
+    },
+    {
+     "tipo": "nenhum",
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Tênis"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "tênis"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sapatenis-sem-acento",
+   "grupo": "tênis × sapatênis",
+   "consulta": "sapatenis",
+   "nota": "Mesmo caso sem acento; a tolerância a erro não pode transformar em 'tênis' nem 'sapato'.",
+   "expectativas": [
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "campo": "_pesquisavel",
+      "op": "contem_palavra",
+      "valor": [
+       "sapatênis",
+       "sapatenis"
+      ]
+     }
+    },
+    {
+     "tipo": "nenhum",
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Tênis"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "tênis"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "marca-michael-kors",
+   "grupo": "marca",
+   "consulta": "michael kors",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Busca por marca: todos os produtos da marca e só a marca no topo.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "campo": "marca",
+      "op": "igual",
+      "valor": "Michael Kors"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "marca",
+      "op": "igual",
+      "valor": "Michael Kors"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sem-resultado-geladeira",
+   "grupo": "sem resultado legítimo",
+   "consulta": "geladeira",
+   "nota": "Fora do sortimento: zero é a resposta certa, e não um produto qualquer por tolerância a erro.",
+   "expectativas": [
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "campo": "_pesquisavel",
+      "op": "contem_palavra",
+      "valor": [
+       "geladeira",
+       "geladeiras"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "vazia-categoria-feminino-calcados",
+   "grupo": "consulta vazia com filtro hierárquico",
+   "consulta": "",
+   "parametros": {
+    "facetFilters": [
+     "categorias.lvl1:Feminino > Calçados"
+    ]
+   },
+   "nota": "Navegação por categoria (clique no menu). Sem texto, o filtro é determinístico: a contagem tem de bater exatamente com o catálogo.",
+   "expectativas": [
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "campo": "categorias.lvl1",
+      "op": "igual",
+      "valor": "Feminino > Calçados"
+     }
+    },
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "categorias.lvl1",
+      "op": "igual",
+      "valor": "Feminino > Calçados"
+     }
+    }
+   ]
+  },
+  {
+   "id": "vazia-categoria-camisetas-masculinas",
+   "grupo": "consulta vazia com filtro hierárquico",
+   "consulta": "",
+   "parametros": {
+    "facetFilters": [
+     "categorias.lvl2:Masculino > Roupas > Camisetas"
+    ]
+   },
+   "nota": "Terceiro nível da árvore.",
+   "expectativas": [
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "campo": "categorias.lvl2",
+      "op": "igual",
+      "valor": "Masculino > Roupas > Camisetas"
+     }
+    },
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "categorias.lvl2",
+      "op": "igual",
+      "valor": "Masculino > Roupas > Camisetas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "replica-jaqueta-preco-asc",
+   "grupo": "ordenação por replica",
+   "consulta": "jaqueta",
+   "indice": "produtos_ptbr_preco_asc",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "'Menor preço' na loja: a replica ordena por preço antes da relevância.",
+   "expectativas": [
+    {
+     "tipo": "ordenado",
+     "campo": "preco",
+     "sentido": "asc"
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "jaqueta"
+     }
+    }
+   ]
+  },
+  {
+   "id": "replica-bolsas-preco-desc",
+   "grupo": "ordenação por replica",
+   "consulta": "",
+   "indice": "produtos_ptbr_preco_desc",
+   "parametros": {
+    "hitsPerPage": 1000,
+    "facetFilters": [
+     "categorias.lvl1:Feminino > Bolsas"
+    ]
+   },
+   "nota": "'Maior preço' navegando pela categoria.",
+   "expectativas": [
+    {
+     "tipo": "ordenado",
+     "campo": "preco",
+     "sentido": "desc"
+    },
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "campo": "categorias.lvl1",
+      "op": "igual",
+      "valor": "Feminino > Bolsas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "smoke-catalogo-e-invariantes",
+   "grupo": "smoke e invariantes",
+   "consulta": "",
+   "parametros": {
+    "hitsPerPage": 1000,
+    "attributesToRetrieve": [
+     "nome",
+     "preco",
+     "preco_de",
+     "em_promocao",
+     "em_estoque",
+     "tamanhos_disponiveis",
+     "grade",
+     "avaliacao_bayes"
+    ]
+   },
+   "nota": "O índice tem o catálogo inteiro (reconstruível a partir do repo) e os records respeitam as regras do conector. avaliacao_bayes está em unretrievableAttributes: não pode sair no payload nem quando pedido.",
+   "expectativas": [
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "todas": []
+     }
+    },
+    {
+     "tipo": "invariante",
+     "nome": "estoque_coerente"
+    },
+    {
+     "tipo": "invariante",
+     "nome": "promocao_coerente"
+    },
+    {
+     "tipo": "invariante",
+     "nome": "tamanhos_na_grade"
+    },
+    {
+     "tipo": "nenhum",
+     "condicao": {
+      "campo": "avaliacao_bayes",
+      "op": "presente"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+  "descricao": "Tráfego sintético da demo, declarado: buscas e cliques inventados para o analytics ter volume (o plano Free guarda só 7 dias). A distribuição foi escrita à mão a partir do catálogo, para que o copiloto tenha o que mostrar: ruptura de grade, demanda sem oferta, candidata a sinônimo e cobertura baixa. Não é dado de cliente.",
+  "tag": "sintetico",
+  "usuarios": 20,
+  "taxa_de_clique": 0.35,
+  "modo_do_tamanho": {"filtro": 0.5, "texto": 0.3, "nenhum": 0.2},
+  "lojas": {
+    "pt": {
+      "indice": "produtos_ptbr",
+      "peso": 0.75,
+      "tamanho_no_texto": "{consulta} {tamanho}",
+      "consultas": [
+        {"consulta": "tênis feminino", "peso": 12, "intencao": "ruptura de grade: o 34 não tem estoque, o 40 tem pouco",
+         "tamanhos": {"34": 3, "35": 2, "36": 2, "37": 3, "38": 3, "39": 2, "40": 3}},
+        {"consulta": "tênis masculino", "peso": 8, "intencao": "ruptura de grade no 44",
+         "tamanhos": {"39": 2, "40": 3, "41": 3, "42": 3, "43": 2, "44": 3}},
+        {"consulta": "tênis", "peso": 6, "intencao": "busca comum"},
+        {"consulta": "sandália", "peso": 6, "intencao": "grade curta no 37",
+         "tamanhos": {"35": 1, "36": 2, "37": 3, "38": 2}},
+        {"consulta": "camiseta", "peso": 5, "intencao": "busca comum",
+         "tamanhos": {"P": 2, "M": 3, "G": 3, "GG": 2}},
+        {"consulta": "sapatênis", "peso": 5, "intencao": "demanda sem oferta (não é tênis nem sapato)"},
+        {"consulta": "rasteirinha", "peso": 4, "intencao": "candidata a sinônimo de sandália"},
+        {"consulta": "bota", "peso": 4, "intencao": "cobertura baixa (1 produto)"},
+        {"consulta": "bolsa", "peso": 8, "intencao": "busca comum"},
+        {"consulta": "bolsa michael kors", "peso": 4, "intencao": "busca por marca"},
+        {"consulta": "jaqueta de couro", "peso": 4, "intencao": "busca comum"},
+        {"consulta": "calça jeans", "peso": 4, "intencao": "busca comum"},
+        {"consulta": "vestido", "peso": 3, "intencao": "busca comum"},
+        {"consulta": "mochila", "peso": 3, "intencao": "cobertura baixa (4 produtos)"},
+        {"consulta": "tênis infantil", "peso": 3, "intencao": "demanda sem oferta (a loja não tem infantil)"},
+        {"consulta": "biquíni", "peso": 3, "intencao": "demanda sem oferta"},
+        {"consulta": "boné", "peso": 3, "intencao": "demanda sem oferta"},
+        {"consulta": "pijama", "peso": 2, "intencao": "demanda sem oferta"},
+        {"consulta": "óculos de sol", "peso": 2, "intencao": "busca comum"},
+        {"consulta": "bolsa promoção", "peso": 2, "intencao": "Rule de promoção"},
+        {"consulta": "cinto promoção", "peso": 2, "intencao": "Rule de promoção"},
+        {"consulta": "moletom", "peso": 2, "intencao": "busca comum"},
+        {"consulta": "havaianas", "peso": 2, "intencao": "busca por marca"},
+        {"consulta": "tenix", "peso": 2, "intencao": "erro de digitação que a tolerância resolve"}
+      ]
+    },
+    "en": {
+      "indice": "produtos_en",
+      "peso": 0.25,
+      "tamanho_no_texto": "{consulta} size {tamanho}",
+      "consultas": [
+        {"consulta": "women sneakers", "peso": 6, "intencao": "size gap: no stock in 34",
+         "tamanhos": {"34": 2, "36": 2, "37": 3, "38": 3, "40": 2}},
+        {"consulta": "men sneakers", "peso": 4, "intencao": "size gap in 44",
+         "tamanhos": {"40": 2, "42": 3, "44": 2}},
+        {"consulta": "sneakers", "peso": 5, "intencao": "common search"},
+        {"consulta": "handbag", "peso": 5, "intencao": "common search"},
+        {"consulta": "leather jacket", "peso": 3, "intencao": "common search"},
+        {"consulta": "t-shirt", "peso": 3, "intencao": "common search"},
+        {"consulta": "flip flops", "peso": 3, "intencao": "common search"},
+        {"consulta": "boots", "peso": 3, "intencao": "low coverage (1 product)"},
+        {"consulta": "kids sneakers", "peso": 2, "intencao": "demand with no offer"},
+        {"consulta": "swimsuit", "peso": 2, "intencao": "demand with no offer"},
+        {"consulta": "backpack", "peso": 2, "intencao": "low coverage (2 products)"},
+        {"consulta": "sale", "peso": 2, "intencao": "sale Rule"}
+      ]
+    }
+  }
+}

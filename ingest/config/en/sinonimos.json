@@ -1,0 +1,138 @@
+[
+ {
+  "objectID": "sneaker-trainer",
+  "type": "synonym",
+  "synonyms": [
+   "sneaker",
+   "sneakers",
+   "trainer",
+   "trainers"
+  ]
+ },
+ {
+  "objectID": "hoodie-sweatshirt",
+  "type": "oneWaySynonym",
+  "input": "hoodie",
+  "synonyms": [
+   "sweatshirt",
+   "hooded sweatshirt"
+  ]
+ },
+ {
+  "objectID": "puffer-down",
+  "type": "oneWaySynonym",
+  "input": "puffer",
+  "synonyms": [
+   "down jacket",
+   "down coat",
+   "down vest"
+  ]
+ },
+ {
+  "objectID": "scarf-foulard",
+  "type": "synonym",
+  "synonyms": [
+   "scarf",
+   "foulard"
+  ]
+ },
+ {
+  "objectID": "loafer-moccasin",
+  "type": "synonym",
+  "synonyms": [
+   "loafer",
+   "loafers",
+   "moccasin",
+   "moccasins"
+  ]
+ },
+ {
+  "objectID": "shades-sunglasses",
+  "type": "oneWaySynonym",
+  "input": "shades",
+  "synonyms": [
+   "sunglasses"
+  ]
+ },
+ {
+  "objectID": "battery-powerbank",
+  "type": "synonym",
+  "synonyms": [
+   "battery",
+   "power bank",
+   "powerbank",
+   "portable charger"
+  ]
+ },
+ {
+  "objectID": "tshirt-tee",
+  "type": "synonym",
+  "synonyms": [
+   "t-shirt",
+   "tshirt",
+   "tee"
+  ]
+ },
+ {
+  "objectID": "pants-trousers",
+  "type": "synonym",
+  "synonyms": [
+   "pants",
+   "trousers"
+  ]
+ },
+ {
+  "objectID": "purse-handbag",
+  "type": "oneWaySynonym",
+  "input": "purse",
+  "synonyms": [
+   "handbag"
+  ]
+ },
+ {
+  "objectID": "jumper-sweater",
+  "type": "oneWaySynonym",
+  "input": "jumper",
+  "synonyms": [
+   "sweater",
+   "pullover"
+  ]
+ },
+ {
+  "objectID": "gray-grey",
+  "type": "synonym",
+  "synonyms": [
+   "grey",
+   "gray"
+  ]
+ },
+ {
+  "objectID": "multicolor",
+  "type": "synonym",
+  "synonyms": [
+   "multicolor",
+   "multicolored",
+   "multicolour",
+   "multi"
+  ]
+ },
+ {
+  "objectID": "gender-women",
+  "type": "synonym",
+  "synonyms": [
+   "women",
+   "woman",
+   "womens",
+   "ladies"
+  ]
+ },
+ {
+  "objectID": "gender-men",
+  "type": "synonym",
+  "synonyms": [
+   "men",
+   "man",
+   "mens"
+  ]
+ }
+]

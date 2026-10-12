@@ -1,0 +1,77 @@
+[
+ {
+  "objectID": "sale-filters-on-sale",
+  "description": "A query with \"sale\" filters products on sale and drops the word. Owner: demo merchandising. Review if the sale scope changes (today only accessories).",
+  "conditions": [
+   {
+    "pattern": "sale",
+    "anchoring": "contains",
+    "alternatives": false
+   }
+  ],
+  "consequence": {
+   "params": {
+    "filters": "em_promocao:true",
+    "query": {
+     "edits": [
+      {
+       "type": "remove",
+       "delete": "sale"
+      }
+     ]
+    }
+   }
+  },
+  "enabled": true
+ },
+ {
+  "objectID": "deal-filters-on-sale",
+  "description": "A query with \"deal\" filters products on sale and drops the word. Owner: demo merchandising. Review if the sale scope changes (today only accessories).",
+  "conditions": [
+   {
+    "pattern": "deal",
+    "anchoring": "contains",
+    "alternatives": false
+   }
+  ],
+  "consequence": {
+   "params": {
+    "filters": "em_promocao:true",
+    "query": {
+     "edits": [
+      {
+       "type": "remove",
+       "delete": "deal"
+      }
+     ]
+    }
+   }
+  },
+  "enabled": true
+ },
+ {
+  "objectID": "discount-filters-on-sale",
+  "description": "A query with \"discount\" filters products on sale and drops the word. Owner: demo merchandising. Review if the sale scope changes (today only accessories).",
+  "conditions": [
+   {
+    "pattern": "discount",
+    "anchoring": "contains",
+    "alternatives": false
+   }
+  ],
+  "consequence": {
+   "params": {
+    "filters": "em_promocao:true",
+    "query": {
+     "edits": [
+      {
+       "type": "remove",
+       "delete": "discount"
+      }
+     ]
+    }
+   }
+  },
+  "enabled": true
+ }
+]

@@ -1,0 +1,17 @@
+{
+ "queryLanguages": [
+  "en"
+ ],
+ "indexLanguages": [
+  "en"
+ ],
+ "ignorePlurals": [
+  "en"
+ ],
+ "removeStopWords": [
+  "en"
+ ],
+ "optionalWords": [
+  "size"
+ ]
+}

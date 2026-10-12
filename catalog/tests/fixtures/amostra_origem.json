@@ -1,0 +1,4175 @@
+{
+ "tenis_eu_masc": {
+  "available_sizes": [
+   "34",
+   "34.5",
+   "35",
+   "35.5",
+   "36",
+   "36.5",
+   "37",
+   "37.5",
+   "38",
+   "38.5",
+   "39",
+   "39.5",
+   "40",
+   "40.5",
+   "41",
+   "41.5",
+   "42",
+   "42.5",
+   "43",
+   "43.5",
+   "44",
+   "44.5",
+   "45",
+   "45.5",
+   "46"
+  ],
+  "brand": "Springa",
+  "category_page_id": [
+   "Men > Shoes",
+   "Men > Shoes > Sneakers"
+  ],
+  "color": {
+   "filter_group": "multicolor;https://res.cloudinary.com/hilnmyskv/image/upload/v1639065885/flagship_sunrise/color_wheel.svg",
+   "original_name": "multi"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "men",
+  "hierarchical_categories": {
+   "lvl0": "Men",
+   "lvl1": "Men > Shoes",
+   "lvl2": "Men > Shoes > Sneakers"
+  },
+  "image_blurred": "LNSPX]M{-;xu_4xuIURjRiofoMWA",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371244/flagship_sunrise/M0E20000000EAAK_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371245/flagship_sunrise/M0E20000000EAAK_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371246/flagship_sunrise/M0E20000000EAAK_2.jpg"
+  ],
+  "list_categories": [
+   "Men",
+   "Shoes",
+   "Sneakers"
+  ],
+  "name": "Sneakers “101H“ Springa multi",
+  "objectID": "M0E20000000EAAK",
+  "parentID": "101H",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 186.25
+  },
+  "product_type": "Sneakers",
+  "related_products": null,
+  "reviews": {
+   "bayesian_avg": 3.96,
+   "count": 99,
+   "rating": 4
+  },
+  "sku": "M0E20000000EAAK",
+  "slug": "springa-sneaker-101h-multicolor",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "34.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAAL"
+   },
+   {
+    "abbreviated_size": "35",
+    "in_stock": false,
+    "sku": "M0E20000000EAAM"
+   },
+   {
+    "abbreviated_size": "35.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAAN"
+   },
+   {
+    "abbreviated_size": "36",
+    "in_stock": false,
+    "sku": "M0E20000000EAAO"
+   },
+   {
+    "abbreviated_size": "36.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAAP"
+   },
+   {
+    "abbreviated_size": "37",
+    "in_stock": false,
+    "sku": "M0E20000000EAAQ"
+   },
+   {
+    "abbreviated_size": "37.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAAR"
+   },
+   {
+    "abbreviated_size": "38",
+    "in_stock": false,
+    "sku": "M0E20000000EAAS"
+   },
+   {
+    "abbreviated_size": "38.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAAT"
+   },
+   {
+    "abbreviated_size": "39",
+    "in_stock": false,
+    "sku": "M0E20000000EAAU"
+   },
+   {
+    "abbreviated_size": "39.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAAV"
+   },
+   {
+    "abbreviated_size": "40",
+    "in_stock": false,
+    "sku": "M0E20000000EAAW"
+   },
+   {
+    "abbreviated_size": "40.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAAX"
+   },
+   {
+    "abbreviated_size": "41",
+    "in_stock": true,
+    "sku": "M0E20000000EAAY"
+   },
+   {
+    "abbreviated_size": "41.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAAZ"
+   },
+   {
+    "abbreviated_size": "42",
+    "in_stock": true,
+    "sku": "M0E20000000EAB0"
+   },
+   {
+    "abbreviated_size": "42.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAB1"
+   },
+   {
+    "abbreviated_size": "43",
+    "in_stock": false,
+    "sku": "M0E20000000EAB2"
+   },
+   {
+    "abbreviated_size": "43.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAB3"
+   },
+   {
+    "abbreviated_size": "44",
+    "in_stock": false,
+    "sku": "M0E20000000EAB4"
+   },
+   {
+    "abbreviated_size": "44.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAB5"
+   },
+   {
+    "abbreviated_size": "45",
+    "in_stock": false,
+    "sku": "M0E20000000EAB6"
+   },
+   {
+    "abbreviated_size": "45.5",
+    "in_stock": false,
+    "sku": "M0E20000000EAB7"
+   },
+   {
+    "abbreviated_size": "46",
+    "in_stock": false,
+    "sku": "M0E20000000EAB8"
+   },
+   {
+    "abbreviated_size": "34",
+    "in_stock": false,
+    "sku": "M0E20000000EAAK"
+   }
+  ]
+ },
+ "calcado_us_fem": {
+  "available_sizes": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13"
+  ],
+  "brand": "Michael Kors",
+  "category_page_id": [
+   "Women > Shoes",
+   "Women > Shoes > Loafers"
+  ],
+  "color": {
+   "filter_group": "white;#FFF",
+   "original_name": "white"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "women",
+  "hierarchical_categories": {
+   "lvl0": "Women",
+   "lvl1": "Women > Shoes",
+   "lvl2": "Women > Shoes > Loafers"
+  },
+  "image_blurred": "L8T9IrWA%Mt8_4o#M_WAI9aet8bH",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373938/flagship_sunrise/M0E20000000ELJC_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373939/flagship_sunrise/M0E20000000ELJC_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373940/flagship_sunrise/M0E20000000ELJC_2.jpg"
+  ],
+  "list_categories": [
+   "Women",
+   "Shoes",
+   "Loafers"
+  ],
+  "name": "Slip-On Shoes “Olivia” Michael Kors white",
+  "objectID": "M0E20000000ELJC",
+  "parentID": "43S5OLFP1L",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 156.25
+  },
+  "product_type": "Loafers",
+  "related_products": null,
+  "reviews": {
+   "bayesian_avg": 3.945205479452055,
+   "count": 72,
+   "rating": 4
+  },
+  "sku": "M0E20000000ELJC",
+  "slug": "michael-kors-slip-on-olivia-43S5OLFP1L-white",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "5.5",
+    "in_stock": false,
+    "sku": "M0E20000000ELJD"
+   },
+   {
+    "abbreviated_size": "6",
+    "in_stock": false,
+    "sku": "M0E20000000ELJE"
+   },
+   {
+    "abbreviated_size": "6.5",
+    "in_stock": false,
+    "sku": "M0E20000000ELJF"
+   },
+   {
+    "abbreviated_size": "7",
+    "in_stock": false,
+    "sku": "M0E20000000ELJG"
+   },
+   {
+    "abbreviated_size": "7.5",
+    "in_stock": false,
+    "sku": "M0E20000000ELJH"
+   },
+   {
+    "abbreviated_size": "8",
+    "in_stock": false,
+    "sku": "M0E20000000ELJI"
+   },
+   {
+    "abbreviated_size": "8.5",
+    "in_stock": false,
+    "sku": "M0E20000000ELJJ"
+   },
+   {
+    "abbreviated_size": "9",
+    "in_stock": true,
+    "sku": "M0E20000000ELJK"
+   },
+   {
+    "abbreviated_size": "9.5",
+    "in_stock": true,
+    "sku": "M0E20000000ELJL"
+   },
+   {
+    "abbreviated_size": "10",
+    "in_stock": true,
+    "sku": "M0E20000000ELJM"
+   },
+   {
+    "abbreviated_size": "10.5",
+    "in_stock": false,
+    "sku": "M0E20000000ELJN"
+   },
+   {
+    "abbreviated_size": "11",
+    "in_stock": false,
+    "sku": "M0E20000000ELJO"
+   },
+   {
+    "abbreviated_size": "11.5",
+    "in_stock": false,
+    "sku": "M0E20000000ELJP"
+   },
+   {
+    "abbreviated_size": "12",
+    "in_stock": false,
+    "sku": "M0E20000000ELJQ"
+   },
+   {
+    "abbreviated_size": "12.5",
+    "in_stock": false,
+    "sku": "M0E20000000ELJR"
+   },
+   {
+    "abbreviated_size": "13",
+    "in_stock": false,
+    "sku": "M0E20000000ELJS"
+   },
+   {
+    "abbreviated_size": "5",
+    "in_stock": false,
+    "sku": "M0E20000000ELJC"
+   }
+  ]
+ },
+ "calcado_us_masc": {
+  "available_sizes": [
+   "5",
+   "5.5",
+   "6",
+   "6.5",
+   "7",
+   "7.5",
+   "8",
+   "8.5",
+   "9",
+   "9.5",
+   "10",
+   "10.5",
+   "11",
+   "11.5",
+   "12",
+   "12.5",
+   "13"
+  ],
+  "brand": "Hogan Rebel",
+  "category_page_id": [
+   "Men > Shoes",
+   "Men > Shoes > Sneakers"
+  ],
+  "color": {
+   "filter_group": "multicolor;https://res.cloudinary.com/hilnmyskv/image/upload/v1639065885/flagship_sunrise/color_wheel.svg",
+   "original_name": "multi"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "men",
+  "hierarchical_categories": {
+   "lvl0": "Men",
+   "lvl1": "Men > Shoes",
+   "lvl2": "Men > Shoes > Sneakers"
+  },
+  "image_blurred": "LOSr_wWBx]of?^ofMxayI9j[tRax",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376436/flagship_sunrise/M0E20000000DX0C_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376437/flagship_sunrise/M0E20000000DX0C_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376438/flagship_sunrise/M0E20000000DX0C_2.jpg"
+  ],
+  "list_categories": [
+   "Men",
+   "Shoes",
+   "Sneakers"
+  ],
+  "name": "Sneakers ”R261” Hogan Rebel multi",
+  "objectID": "M0E20000000DX0C",
+  "parentID": "HXM2610R6708TZ2BA2",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 343.75
+  },
+  "product_type": "Sneakers",
+  "related_products": null,
+  "reviews": {
+   "bayesian_avg": 3.949367088607595,
+   "count": 78,
+   "rating": 4
+  },
+  "sku": "M0E20000000DX0C",
+  "slug": "hogan-rebel-r261-men-sneaker-2610r6708-multi",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "5.5",
+    "in_stock": false,
+    "sku": "M0E20000000DX0D"
+   },
+   {
+    "abbreviated_size": "6",
+    "in_stock": false,
+    "sku": "M0E20000000DX0E"
+   },
+   {
+    "abbreviated_size": "6.5",
+    "in_stock": false,
+    "sku": "M0E20000000DX0F"
+   },
+   {
+    "abbreviated_size": "7",
+    "in_stock": true,
+    "sku": "M0E20000000DX0G"
+   },
+   {
+    "abbreviated_size": "7.5",
+    "in_stock": false,
+    "sku": "M0E20000000DX0H"
+   },
+   {
+    "abbreviated_size": "8",
+    "in_stock": true,
+    "sku": "M0E20000000DX0I"
+   },
+   {
+    "abbreviated_size": "8.5",
+    "in_stock": true,
+    "sku": "M0E20000000DX0J"
+   },
+   {
+    "abbreviated_size": "9",
+    "in_stock": true,
+    "sku": "M0E20000000DX0K"
+   },
+   {
+    "abbreviated_size": "9.5",
+    "in_stock": true,
+    "sku": "M0E20000000DX0L"
+   },
+   {
+    "abbreviated_size": "10",
+    "in_stock": false,
+    "sku": "M0E20000000DX0M"
+   },
+   {
+    "abbreviated_size": "10.5",
+    "in_stock": false,
+    "sku": "M0E20000000DX0N"
+   },
+   {
+    "abbreviated_size": "11",
+    "in_stock": false,
+    "sku": "M0E20000000DX0O"
+   },
+   {
+    "abbreviated_size": "11.5",
+    "in_stock": false,
+    "sku": "M0E20000000DX0P"
+   },
+   {
+    "abbreviated_size": "12",
+    "in_stock": false,
+    "sku": "M0E20000000DX0Q"
+   },
+   {
+    "abbreviated_size": "12.5",
+    "in_stock": false,
+    "sku": "M0E20000000DX0R"
+   },
+   {
+    "abbreviated_size": "13",
+    "in_stock": false,
+    "sku": "M0E20000000DX0S"
+   },
+   {
+    "abbreviated_size": "5",
+    "in_stock": false,
+    "sku": "M0E20000000DX0C"
+   }
+  ]
+ },
+ "roupa_letras": {
+  "available_sizes": [
+   "XXS",
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "XXXL"
+  ],
+  "brand": "Polo Ralph Lauren",
+  "category_page_id": [
+   "Men > Clothing",
+   "Men > Clothing > T-shirts"
+  ],
+  "color": {
+   "filter_group": "blue;#0075BB",
+   "original_name": "blue"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "men",
+  "hierarchical_categories": {
+   "lvl0": "Men",
+   "lvl1": "Men > Clothing",
+   "lvl2": "Men > Clothing > T-shirts"
+  },
+  "image_blurred": "LvN_7TW;}[n%EpWC$_j?^HoeK8bI",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376552/flagship_sunrise/M0E20000000E2QT_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376554/flagship_sunrise/M0E20000000E2QT_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376555/flagship_sunrise/M0E20000000E2QT_2.jpg"
+  ],
+  "list_categories": [
+   "Men",
+   "Clothing",
+   "T-shirts"
+  ],
+  "name": "Polo Ralph Lauren blue",
+  "objectID": "M0E20000000E2QT",
+  "parentID": "A12KAA10",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 107.5
+  },
+  "product_type": "T-shirts",
+  "related_products": [
+   {
+    "available_sizes": [
+     "XXS",
+     "XS",
+     "S",
+     "M",
+     "L",
+     "XL",
+     "XXL",
+     "XXXL"
+    ],
+    "brand": "Polo Ralph Lauren",
+    "category_page_id": [
+     "Men > Clothing",
+     "Men > Clothing > T-shirts"
+    ],
+    "color": {
+     "filter_group": "green;#00AD4A",
+     "original_name": "green"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "men",
+    "hierarchical_categories": {
+     "lvl0": "Men",
+     "lvl1": "Men > Clothing",
+     "lvl2": "Men > Clothing > T-shirts"
+    },
+    "i18n": null,
+    "image_blurred": "L;MbF[j[}^jsRij[o}bH-qbHN?f6",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638370829/flagship_sunrise/M0E20000000E2Q5_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638370830/flagship_sunrise/M0E20000000E2Q5_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638370831/flagship_sunrise/M0E20000000E2Q5_2.jpg"
+    ],
+    "list_categories": [
+     "Men",
+     "Clothing",
+     "T-shirts"
+    ],
+    "name": "Polo Ralph Lauren green",
+    "objectID": "M0E20000000E2Q5",
+    "parentID": "A12KAA10",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 107.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 0.9880952380952381,
+     "count": 83,
+     "rating": 1
+    },
+    "sku": "M0E20000000E2Q5",
+    "slug": "poloralphlauren-polo-C8312A3ZHJ-green",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "XS",
+      "in_stock": false,
+      "sku": "M0E20000000E2Q6"
+     },
+     {
+      "abbreviated_size": "S",
+      "in_stock": false,
+      "sku": "M0E20000000E2Q7"
+     },
+     {
+      "abbreviated_size": "M",
+      "in_stock": false,
+      "sku": "M0E20000000E2Q8"
+     },
+     {
+      "abbreviated_size": "L",
+      "in_stock": true,
+      "sku": "M0E20000000E2Q9"
+     },
+     {
+      "abbreviated_size": "XL",
+      "in_stock": false,
+      "sku": "M0E20000000E2QA"
+     },
+     {
+      "abbreviated_size": "XXL",
+      "in_stock": true,
+      "sku": "M0E20000000E2QB"
+     },
+     {
+      "abbreviated_size": "XXXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2QC"
+     },
+     {
+      "abbreviated_size": "XXS",
+      "in_stock": false,
+      "sku": "M0E20000000E2Q5"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "XXS",
+     "XS",
+     "S",
+     "M",
+     "L",
+     "XL",
+     "XXL",
+     "XXXL"
+    ],
+    "brand": "Polo Ralph Lauren",
+    "category_page_id": [
+     "Men > Clothing",
+     "Men > Clothing > T-shirts"
+    ],
+    "color": {
+     "filter_group": "blue;#0075BB",
+     "original_name": "ocean blue"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "men",
+    "hierarchical_categories": {
+     "lvl0": "Men",
+     "lvl1": "Men > Clothing",
+     "lvl2": "Men > Clothing > T-shirts"
+    },
+    "i18n": null,
+    "image_blurred": "L|MHooa|~Bj?ryfPS_jt%cfkRqjt",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373253/flagship_sunrise/M0E20000000E2QL_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373254/flagship_sunrise/M0E20000000E2QL_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373255/flagship_sunrise/M0E20000000E2QL_2.jpg"
+    ],
+    "list_categories": [
+     "Men",
+     "Clothing",
+     "T-shirts"
+    ],
+    "name": "Polo Ralph Lauren ocean blue",
+    "objectID": "M0E20000000E2QL",
+    "parentID": "A12KAA10",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 107.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 0.9814814814814815,
+     "count": 53,
+     "rating": 1
+    },
+    "sku": "M0E20000000E2QL",
+    "slug": "poloralphlauren-polo-C8312A4PAC-oceanblue",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "XS",
+      "in_stock": false,
+      "sku": "M0E20000000E2QM"
+     },
+     {
+      "abbreviated_size": "S",
+      "in_stock": true,
+      "sku": "M0E20000000E2QN"
+     },
+     {
+      "abbreviated_size": "M",
+      "in_stock": false,
+      "sku": "M0E20000000E2QO"
+     },
+     {
+      "abbreviated_size": "L",
+      "in_stock": false,
+      "sku": "M0E20000000E2QP"
+     },
+     {
+      "abbreviated_size": "XL",
+      "in_stock": true,
+      "sku": "M0E20000000E2QQ"
+     },
+     {
+      "abbreviated_size": "XXL",
+      "in_stock": true,
+      "sku": "M0E20000000E2QR"
+     },
+     {
+      "abbreviated_size": "XXXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2QS"
+     },
+     {
+      "abbreviated_size": "XXS",
+      "in_stock": false,
+      "sku": "M0E20000000E2QL"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "XXS",
+     "XS",
+     "S",
+     "M",
+     "L",
+     "XL",
+     "XXL",
+     "XXXL"
+    ],
+    "brand": "Polo Ralph Lauren",
+    "category_page_id": [
+     "Men > Clothing",
+     "Men > Clothing > T-shirts"
+    ],
+    "color": {
+     "filter_group": "blue;#0075BB",
+     "original_name": "dark blue"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "men",
+    "hierarchical_categories": {
+     "lvl0": "Men",
+     "lvl1": "Men > Clothing",
+     "lvl2": "Men > Clothing > T-shirts"
+    },
+    "i18n": null,
+    "image_blurred": "L;NmZqkC~qjZI@jtt6fP-;fkI;jt",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373280/flagship_sunrise/M0E20000000E2R1_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373282/flagship_sunrise/M0E20000000E2R1_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373283/flagship_sunrise/M0E20000000E2R1_2.jpg"
+    ],
+    "list_categories": [
+     "Men",
+     "Clothing",
+     "T-shirts"
+    ],
+    "name": "Polo Ralph Lauren dark blue",
+    "objectID": "M0E20000000E2R1",
+    "parentID": "A12KAA10",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 107.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 0,
+     "count": 97,
+     "rating": 0
+    },
+    "sku": "M0E20000000E2R1",
+    "slug": "polo-ralph-lauren-a12kaa10-blue",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "XS",
+      "in_stock": false,
+      "sku": "M0E20000000E2R2"
+     },
+     {
+      "abbreviated_size": "S",
+      "in_stock": false,
+      "sku": "M0E20000000E2R3"
+     },
+     {
+      "abbreviated_size": "M",
+      "in_stock": false,
+      "sku": "M0E20000000E2R4"
+     },
+     {
+      "abbreviated_size": "L",
+      "in_stock": false,
+      "sku": "M0E20000000E2R5"
+     },
+     {
+      "abbreviated_size": "XL",
+      "in_stock": false,
+      "sku": "M0E20000000E2R6"
+     },
+     {
+      "abbreviated_size": "XXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2R7"
+     },
+     {
+      "abbreviated_size": "XXXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2R8"
+     },
+     {
+      "abbreviated_size": "XXS",
+      "in_stock": false,
+      "sku": "M0E20000000E2R1"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "XXS",
+     "XS",
+     "S",
+     "M",
+     "L",
+     "XL",
+     "XXL",
+     "XXXL"
+    ],
+    "brand": "Polo Ralph Lauren",
+    "category_page_id": [
+     "Men > Clothing",
+     "Men > Clothing > T-shirts"
+    ],
+    "color": {
+     "filter_group": "green;#00AD4A",
+     "original_name": "mint green"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "men",
+    "hierarchical_categories": {
+     "lvl0": "Men",
+     "lvl1": "Men > Clothing",
+     "lvl2": "Men > Clothing > T-shirts"
+    },
+    "i18n": null,
+    "image_blurred": "LuO4hpa#~DoLL0j@v*f6[JjuK$a{",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373872/flagship_sunrise/M0E20000000E2QD_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373873/flagship_sunrise/M0E20000000E2QD_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373874/flagship_sunrise/M0E20000000E2QD_2.jpg"
+    ],
+    "list_categories": [
+     "Men",
+     "Clothing",
+     "T-shirts"
+    ],
+    "name": "Polo Ralph Lauren mint green",
+    "objectID": "M0E20000000E2QD",
+    "parentID": "A12KAA10",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 107.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 0,
+     "count": 21,
+     "rating": 0
+    },
+    "sku": "M0E20000000E2QD",
+    "slug": "poloralphlauren-polo-C8312A3262-mintgreen",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "XS",
+      "in_stock": false,
+      "sku": "M0E20000000E2QE"
+     },
+     {
+      "abbreviated_size": "S",
+      "in_stock": true,
+      "sku": "M0E20000000E2QF"
+     },
+     {
+      "abbreviated_size": "M",
+      "in_stock": false,
+      "sku": "M0E20000000E2QG"
+     },
+     {
+      "abbreviated_size": "L",
+      "in_stock": true,
+      "sku": "M0E20000000E2QH"
+     },
+     {
+      "abbreviated_size": "XL",
+      "in_stock": false,
+      "sku": "M0E20000000E2QI"
+     },
+     {
+      "abbreviated_size": "XXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2QJ"
+     },
+     {
+      "abbreviated_size": "XXXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2QK"
+     },
+     {
+      "abbreviated_size": "XXS",
+      "in_stock": false,
+      "sku": "M0E20000000E2QD"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "XXS",
+     "XS",
+     "S",
+     "M",
+     "L",
+     "XL",
+     "XXL",
+     "XXXL"
+    ],
+    "brand": "Polo Ralph Lauren",
+    "category_page_id": [
+     "Men > Clothing",
+     "Men > Clothing > T-shirts"
+    ],
+    "color": {
+     "filter_group": "red;#E10600",
+     "original_name": "red"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "men",
+    "hierarchical_categories": {
+     "lvl0": "Men",
+     "lvl1": "Men > Clothing",
+     "lvl2": "Men > Clothing > T-shirts"
+    },
+    "i18n": null,
+    "image_blurred": "L}P#W@W;.moL-VoeNaWVKjay$6f6",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374837/flagship_sunrise/M0E20000000E2RH_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374838/flagship_sunrise/M0E20000000E2RH_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374839/flagship_sunrise/M0E20000000E2RH_2.jpg"
+    ],
+    "list_categories": [
+     "Men",
+     "Clothing",
+     "T-shirts"
+    ],
+    "name": "Polo Ralph Lauren red",
+    "objectID": "M0E20000000E2RH",
+    "parentID": "A12KAA10",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 107.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 3.777777777777778,
+     "count": 17,
+     "rating": 4
+    },
+    "sku": "M0E20000000E2RH",
+    "slug": "poloralphlauren-polo-C8312A6801-red",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "XS",
+      "in_stock": false,
+      "sku": "M0E20000000E2RI"
+     },
+     {
+      "abbreviated_size": "S",
+      "in_stock": true,
+      "sku": "M0E20000000E2RJ"
+     },
+     {
+      "abbreviated_size": "M",
+      "in_stock": true,
+      "sku": "M0E20000000E2RK"
+     },
+     {
+      "abbreviated_size": "L",
+      "in_stock": true,
+      "sku": "M0E20000000E2RL"
+     },
+     {
+      "abbreviated_size": "XL",
+      "in_stock": false,
+      "sku": "M0E20000000E2RM"
+     },
+     {
+      "abbreviated_size": "XXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2RN"
+     },
+     {
+      "abbreviated_size": "XXXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2RO"
+     },
+     {
+      "abbreviated_size": "XXS",
+      "in_stock": false,
+      "sku": "M0E20000000E2RH"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "XXS",
+     "XS",
+     "S",
+     "M",
+     "L",
+     "XL",
+     "XXL",
+     "XXXL"
+    ],
+    "brand": "Polo Ralph Lauren",
+    "category_page_id": [
+     "Men > Clothing",
+     "Men > Clothing > T-shirts"
+    ],
+    "color": {
+     "filter_group": "pink;#ffc0cb",
+     "original_name": "rose"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "men",
+    "hierarchical_categories": {
+     "lvl0": "Men",
+     "lvl1": "Men > Clothing",
+     "lvl2": "Men > Clothing > T-shirts"
+    },
+    "i18n": null,
+    "image_blurred": "LmR2Jej[.mj[;Bf6Kfa{G=fk#Zf6",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375095/flagship_sunrise/M0E20000000E2PX_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375096/flagship_sunrise/M0E20000000E2PX_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375097/flagship_sunrise/M0E20000000E2PX_2.jpg"
+    ],
+    "list_categories": [
+     "Men",
+     "Clothing",
+     "T-shirts"
+    ],
+    "name": "Polo Ralph Lauren rose",
+    "objectID": "M0E20000000E2PX",
+    "parentID": "A12KAA10",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 107.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 1.967213114754098,
+     "count": 60,
+     "rating": 2
+    },
+    "sku": "M0E20000000E2PX",
+    "slug": "poloralphlauren-polo-C8312AAA69-rose",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "XS",
+      "in_stock": false,
+      "sku": "M0E20000000E2PY"
+     },
+     {
+      "abbreviated_size": "S",
+      "in_stock": true,
+      "sku": "M0E20000000E2PZ"
+     },
+     {
+      "abbreviated_size": "M",
+      "in_stock": true,
+      "sku": "M0E20000000E2Q0"
+     },
+     {
+      "abbreviated_size": "L",
+      "in_stock": true,
+      "sku": "M0E20000000E2Q1"
+     },
+     {
+      "abbreviated_size": "XL",
+      "in_stock": true,
+      "sku": "M0E20000000E2Q2"
+     },
+     {
+      "abbreviated_size": "XXL",
+      "in_stock": true,
+      "sku": "M0E20000000E2Q3"
+     },
+     {
+      "abbreviated_size": "XXXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2Q4"
+     },
+     {
+      "abbreviated_size": "XXS",
+      "in_stock": false,
+      "sku": "M0E20000000E2PX"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "XXS",
+     "XS",
+     "S",
+     "M",
+     "L",
+     "XL",
+     "XXL",
+     "XXXL"
+    ],
+    "brand": "Polo Ralph Lauren",
+    "category_page_id": [
+     "Men > Clothing",
+     "Men > Clothing > T-shirts"
+    ],
+    "color": {
+     "filter_group": "yellow;#fff200",
+     "original_name": "yellow"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "men",
+    "hierarchical_categories": {
+     "lvl0": "Men",
+     "lvl1": "Men > Clothing",
+     "lvl2": "Men > Clothing > T-shirts"
+    },
+    "i18n": null,
+    "image_blurred": "L@QvKrWU%joL?FoJM}ayIxa}%Ij[",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375404/flagship_sunrise/M0E20000000E2RP_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375405/flagship_sunrise/M0E20000000E2RP_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375406/flagship_sunrise/M0E20000000E2RP_2.jpg"
+    ],
+    "list_categories": [
+     "Men",
+     "Clothing",
+     "T-shirts"
+    ],
+    "name": "Polo Ralph Lauren yellow",
+    "objectID": "M0E20000000E2RP",
+    "parentID": "A12KAA10",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 107.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 0.9887640449438202,
+     "count": 88,
+     "rating": 1
+    },
+    "sku": "M0E20000000E2RP",
+    "slug": "poloralphlauren-polo-C8312A7505-yellow",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "XS",
+      "in_stock": false,
+      "sku": "M0E20000000E2RQ"
+     },
+     {
+      "abbreviated_size": "S",
+      "in_stock": true,
+      "sku": "M0E20000000E2RR"
+     },
+     {
+      "abbreviated_size": "M",
+      "in_stock": true,
+      "sku": "M0E20000000E2RS"
+     },
+     {
+      "abbreviated_size": "L",
+      "in_stock": true,
+      "sku": "M0E20000000E2RT"
+     },
+     {
+      "abbreviated_size": "XL",
+      "in_stock": true,
+      "sku": "M0E20000000E2RU"
+     },
+     {
+      "abbreviated_size": "XXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2RV"
+     },
+     {
+      "abbreviated_size": "XXXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2RW"
+     },
+     {
+      "abbreviated_size": "XXS",
+      "in_stock": false,
+      "sku": "M0E20000000E2RP"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "XXS",
+     "XS",
+     "S",
+     "M",
+     "L",
+     "XL",
+     "XXL",
+     "XXXL"
+    ],
+    "brand": "Polo Ralph Lauren",
+    "category_page_id": [
+     "Men > Clothing",
+     "Men > Clothing > T-shirts"
+    ],
+    "color": {
+     "filter_group": "blue;#0075BB",
+     "original_name": "light blue"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "men",
+    "hierarchical_categories": {
+     "lvl0": "Men",
+     "lvl1": "Men > Clothing",
+     "lvl2": "Men > Clothing > T-shirts"
+    },
+    "i18n": null,
+    "image_blurred": "LmOqcjWV}boK-YfQOlf6Svj[xwa|",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376127/flagship_sunrise/M0E20000000E2S5_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376128/flagship_sunrise/M0E20000000E2S5_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376129/flagship_sunrise/M0E20000000E2S5_2.jpg"
+    ],
+    "list_categories": [
+     "Men",
+     "Clothing",
+     "T-shirts"
+    ],
+    "name": "Polo Ralph Lauren light blue",
+    "objectID": "M0E20000000E2S5",
+    "parentID": "A12KAA10",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 107.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 3.942028985507247,
+     "count": 68,
+     "rating": 4
+    },
+    "sku": "M0E20000000E2S5",
+    "slug": "poloralphlauren-polo-C8312B4109-lightblue",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "XS",
+      "in_stock": false,
+      "sku": "M0E20000000E2S6"
+     },
+     {
+      "abbreviated_size": "S",
+      "in_stock": false,
+      "sku": "M0E20000000E2S7"
+     },
+     {
+      "abbreviated_size": "M",
+      "in_stock": false,
+      "sku": "M0E20000000E2S8"
+     },
+     {
+      "abbreviated_size": "L",
+      "in_stock": true,
+      "sku": "M0E20000000E2S9"
+     },
+     {
+      "abbreviated_size": "XL",
+      "in_stock": false,
+      "sku": "M0E20000000E2SA"
+     },
+     {
+      "abbreviated_size": "XXL",
+      "in_stock": true,
+      "sku": "M0E20000000E2SB"
+     },
+     {
+      "abbreviated_size": "XXXL",
+      "in_stock": false,
+      "sku": "M0E20000000E2SC"
+     },
+     {
+      "abbreviated_size": "XXS",
+      "in_stock": false,
+      "sku": "M0E20000000E2S5"
+     }
+    ]
+   }
+  ],
+  "reviews": {
+   "bayesian_avg": 3.957894736842105,
+   "count": 94,
+   "rating": 4
+  },
+  "sku": "M0E20000000E2QT",
+  "slug": "poloralphlauren-polo-C8312A428A-blue",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "XS",
+    "in_stock": false,
+    "sku": "M0E20000000E2QU"
+   },
+   {
+    "abbreviated_size": "S",
+    "in_stock": false,
+    "sku": "M0E20000000E2QV"
+   },
+   {
+    "abbreviated_size": "M",
+    "in_stock": false,
+    "sku": "M0E20000000E2QW"
+   },
+   {
+    "abbreviated_size": "L",
+    "in_stock": true,
+    "sku": "M0E20000000E2QX"
+   },
+   {
+    "abbreviated_size": "XL",
+    "in_stock": true,
+    "sku": "M0E20000000E2QY"
+   },
+   {
+    "abbreviated_size": "XXL",
+    "in_stock": false,
+    "sku": "M0E20000000E2QZ"
+   },
+   {
+    "abbreviated_size": "XXXL",
+    "in_stock": false,
+    "sku": "M0E20000000E2R0"
+   },
+   {
+    "abbreviated_size": "XXS",
+    "in_stock": false,
+    "sku": "M0E20000000E2QT"
+   }
+  ]
+ },
+ "roupa_num_fem": {
+  "available_sizes": [
+   "34",
+   "36",
+   "38",
+   "40",
+   "42",
+   "44",
+   "46",
+   "48",
+   "50",
+   "52",
+   "54",
+   "56",
+   "58"
+  ],
+  "brand": "Who are you?",
+  "category_page_id": [
+   "Women > Clothing",
+   "Women > Clothing > T-shirts"
+  ],
+  "color": {
+   "filter_group": "black;#333",
+   "original_name": "black"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "women",
+  "hierarchical_categories": {
+   "lvl0": "Women",
+   "lvl1": "Women > Clothing",
+   "lvl2": "Women > Clothing > T-shirts"
+  },
+  "image_blurred": "L_Mjp@js~qj[%2WBR-oK%gofNGWV",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376362/flagship_sunrise/M0E20000000E1HU_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376363/flagship_sunrise/M0E20000000E1HU_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376365/flagship_sunrise/M0E20000000E1HU_2.jpg"
+  ],
+  "list_categories": [
+   "Women",
+   "Clothing",
+   "T-shirts"
+  ],
+  "name": "T-Shirt Ki 6? Who are you? black",
+  "objectID": "M0E20000000E1HU",
+  "parentID": "TO29",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 172.5
+  },
+  "product_type": "T-shirts",
+  "related_products": [
+   {
+    "available_sizes": [
+     "34",
+     "36",
+     "38",
+     "40",
+     "42",
+     "44",
+     "46",
+     "48",
+     "50",
+     "52",
+     "54",
+     "56",
+     "58"
+    ],
+    "brand": "Who are you?",
+    "category_page_id": [
+     "Women > Clothing",
+     "Women > Clothing > T-shirts"
+    ],
+    "color": {
+     "filter_group": "beige;#EFDBB2",
+     "original_name": "cream"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Clothing",
+     "lvl2": "Women > Clothing > T-shirts"
+    },
+    "i18n": null,
+    "image_blurred": "LfQvUTn$?wWC?HRjIqoLI]t7%LWB",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373954/flagship_sunrise/M0E20000000E1HH_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373955/flagship_sunrise/M0E20000000E1HH_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373955/flagship_sunrise/M0E20000000E1HH_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Clothing",
+     "T-shirts"
+    ],
+    "name": "T-Shirt Ki 6? Who are you? cream",
+    "objectID": "M0E20000000E1HH",
+    "parentID": "TO29",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 172.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 1.888888888888889,
+     "count": 17,
+     "rating": 2
+    },
+    "sku": "M0E20000000E1HH",
+    "slug": "ki6-whoareyou-tshirt-TO299299-cream",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "36",
+      "in_stock": false,
+      "sku": "M0E20000000E1HI"
+     },
+     {
+      "abbreviated_size": "38",
+      "in_stock": false,
+      "sku": "M0E20000000E1HJ"
+     },
+     {
+      "abbreviated_size": "40",
+      "in_stock": true,
+      "sku": "M0E20000000E1HK"
+     },
+     {
+      "abbreviated_size": "42",
+      "in_stock": true,
+      "sku": "M0E20000000E1HL"
+     },
+     {
+      "abbreviated_size": "44",
+      "in_stock": true,
+      "sku": "M0E20000000E1HM"
+     },
+     {
+      "abbreviated_size": "46",
+      "in_stock": false,
+      "sku": "M0E20000000E1HN"
+     },
+     {
+      "abbreviated_size": "48",
+      "in_stock": false,
+      "sku": "M0E20000000E1HO"
+     },
+     {
+      "abbreviated_size": "50",
+      "in_stock": false,
+      "sku": "M0E20000000E1HP"
+     },
+     {
+      "abbreviated_size": "52",
+      "in_stock": false,
+      "sku": "M0E20000000E1HQ"
+     },
+     {
+      "abbreviated_size": "54",
+      "in_stock": false,
+      "sku": "M0E20000000E1HR"
+     },
+     {
+      "abbreviated_size": "56",
+      "in_stock": false,
+      "sku": "M0E20000000E1HS"
+     },
+     {
+      "abbreviated_size": "58",
+      "in_stock": false,
+      "sku": "M0E20000000E1HT"
+     },
+     {
+      "abbreviated_size": "34",
+      "in_stock": false,
+      "sku": "M0E20000000E1HH"
+     }
+    ]
+   }
+  ],
+  "reviews": {
+   "bayesian_avg": 3.96,
+   "count": 99,
+   "rating": 4
+  },
+  "sku": "M0E20000000E1HU",
+  "slug": "ki6-whoareyou-tshirt-TO299992-black",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "36",
+    "in_stock": false,
+    "sku": "M0E20000000E1HV"
+   },
+   {
+    "abbreviated_size": "38",
+    "in_stock": false,
+    "sku": "M0E20000000E1HW"
+   },
+   {
+    "abbreviated_size": "40",
+    "in_stock": false,
+    "sku": "M0E20000000E1HX"
+   },
+   {
+    "abbreviated_size": "42",
+    "in_stock": false,
+    "sku": "M0E20000000E1HY"
+   },
+   {
+    "abbreviated_size": "44",
+    "in_stock": false,
+    "sku": "M0E20000000E1HZ"
+   },
+   {
+    "abbreviated_size": "46",
+    "in_stock": false,
+    "sku": "M0E20000000E1I0"
+   },
+   {
+    "abbreviated_size": "48",
+    "in_stock": false,
+    "sku": "M0E20000000E1I1"
+   },
+   {
+    "abbreviated_size": "50",
+    "in_stock": false,
+    "sku": "M0E20000000E1I2"
+   },
+   {
+    "abbreviated_size": "52",
+    "in_stock": false,
+    "sku": "M0E20000000E1I3"
+   },
+   {
+    "abbreviated_size": "54",
+    "in_stock": false,
+    "sku": "M0E20000000E1I4"
+   },
+   {
+    "abbreviated_size": "56",
+    "in_stock": false,
+    "sku": "M0E20000000E1I5"
+   },
+   {
+    "abbreviated_size": "58",
+    "in_stock": false,
+    "sku": "M0E20000000E1I6"
+   },
+   {
+    "abbreviated_size": "34",
+    "in_stock": false,
+    "sku": "M0E20000000E1HU"
+   }
+  ]
+ },
+ "roupa_num_masc": {
+  "available_sizes": [
+   "34",
+   "36",
+   "38",
+   "40",
+   "42",
+   "44",
+   "46",
+   "48",
+   "50",
+   "52",
+   "54",
+   "56",
+   "58"
+  ],
+  "brand": "Bully",
+  "category_page_id": [
+   "Men > Clothing",
+   "Men > Clothing > Jackets"
+  ],
+  "color": {
+   "filter_group": "green;#00AD4A",
+   "original_name": "military green"
+  },
+  "created_at": 0,
+  "description": "Thanks to their perfect tailoring, leather jackets by Bully are a favorite choice, not only for fashion insiders. Softest leather and modern manufacturing techniques create investment pieces that will add status to any look for a long time!",
+  "gender": "men",
+  "hierarchical_categories": {
+   "lvl0": "Men",
+   "lvl1": "Men > Clothing",
+   "lvl2": "Men > Clothing > Jackets"
+  },
+  "image_blurred": "LzKBH:ay~qj[-;ayWWj[-;jtofj[",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371232/flagship_sunrise/M0E20000000FBH8_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371233/flagship_sunrise/M0E20000000FBH8_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371234/flagship_sunrise/M0E20000000FBH8_2.jpg"
+  ],
+  "list_categories": [
+   "Men",
+   "Clothing",
+   "Jackets"
+  ],
+  "name": "Bully – Leather Jacket",
+  "objectID": "M0E20000000FBH8",
+  "parentID": "TUBE",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 497.5
+  },
+  "product_type": "Jackets",
+  "related_products": [
+   {
+    "available_sizes": [
+     "34",
+     "36",
+     "38",
+     "40",
+     "42",
+     "44",
+     "46",
+     "48",
+     "50",
+     "52",
+     "54",
+     "56",
+     "58"
+    ],
+    "brand": "Bully",
+    "category_page_id": [
+     "Men > Clothing",
+     "Men > Clothing > Jackets"
+    ],
+    "color": {
+     "filter_group": "brown;#6c442c",
+     "original_name": "brown"
+    },
+    "created_at": 0,
+    "description": "Thanks to their perfect tailoring, leather jackets by Bully are a favorite choice, not only for fashion insiders. Softest leather and modern manufacturing techniques create investment pieces that will add status to any look for a long time!",
+    "gender": "men",
+    "hierarchical_categories": {
+     "lvl0": "Men",
+     "lvl1": "Men > Clothing",
+     "lvl2": "Men > Clothing > Jackets"
+    },
+    "i18n": null,
+    "image_blurred": "L*LE7;fQ~qfPxuaybHj[-;fkazj[",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375742/flagship_sunrise/M0E20000000FBHL_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375743/flagship_sunrise/M0E20000000FBHL_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375744/flagship_sunrise/M0E20000000FBHL_2.jpg"
+    ],
+    "list_categories": [
+     "Men",
+     "Clothing",
+     "Jackets"
+    ],
+    "name": "Bully – Leather Jacket",
+    "objectID": "M0E20000000FBHL",
+    "parentID": "TUBE",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 497.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 0,
+     "count": 25,
+     "rating": 0
+    },
+    "sku": "M0E20000000FBHL",
+    "slug": "bully-leather-jacket-tube5-brown",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "36",
+      "in_stock": false,
+      "sku": "M0E20000000FBHM"
+     },
+     {
+      "abbreviated_size": "38",
+      "in_stock": false,
+      "sku": "M0E20000000FBHN"
+     },
+     {
+      "abbreviated_size": "40",
+      "in_stock": false,
+      "sku": "M0E20000000FBHO"
+     },
+     {
+      "abbreviated_size": "42",
+      "in_stock": false,
+      "sku": "M0E20000000FBHP"
+     },
+     {
+      "abbreviated_size": "44",
+      "in_stock": false,
+      "sku": "M0E20000000FBHQ"
+     },
+     {
+      "abbreviated_size": "46",
+      "in_stock": false,
+      "sku": "M0E20000000FBHR"
+     },
+     {
+      "abbreviated_size": "48",
+      "in_stock": false,
+      "sku": "M0E20000000FBHS"
+     },
+     {
+      "abbreviated_size": "50",
+      "in_stock": false,
+      "sku": "M0E20000000FBHT"
+     },
+     {
+      "abbreviated_size": "52",
+      "in_stock": false,
+      "sku": "M0E20000000FBHU"
+     },
+     {
+      "abbreviated_size": "54",
+      "in_stock": false,
+      "sku": "M0E20000000FBHV"
+     },
+     {
+      "abbreviated_size": "56",
+      "in_stock": false,
+      "sku": "M0E20000000FBHW"
+     },
+     {
+      "abbreviated_size": "58",
+      "in_stock": false,
+      "sku": "M0E20000000FBHX"
+     },
+     {
+      "abbreviated_size": "34",
+      "in_stock": false,
+      "sku": "M0E20000000FBHL"
+     }
+    ]
+   }
+  ],
+  "reviews": {
+   "bayesian_avg": 3.956989247311828,
+   "count": 92,
+   "rating": 4
+  },
+  "sku": "M0E20000000FBH8",
+  "slug": "bully-leather-jacket-tube7-green",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "36",
+    "in_stock": false,
+    "sku": "M0E20000000FBH9"
+   },
+   {
+    "abbreviated_size": "38",
+    "in_stock": false,
+    "sku": "M0E20000000FBHA"
+   },
+   {
+    "abbreviated_size": "40",
+    "in_stock": false,
+    "sku": "M0E20000000FBHB"
+   },
+   {
+    "abbreviated_size": "42",
+    "in_stock": false,
+    "sku": "M0E20000000FBHC"
+   },
+   {
+    "abbreviated_size": "44",
+    "in_stock": false,
+    "sku": "M0E20000000FBHD"
+   },
+   {
+    "abbreviated_size": "46",
+    "in_stock": false,
+    "sku": "M0E20000000FBHE"
+   },
+   {
+    "abbreviated_size": "48",
+    "in_stock": false,
+    "sku": "M0E20000000FBHF"
+   },
+   {
+    "abbreviated_size": "50",
+    "in_stock": false,
+    "sku": "M0E20000000FBHG"
+   },
+   {
+    "abbreviated_size": "52",
+    "in_stock": false,
+    "sku": "M0E20000000FBHH"
+   },
+   {
+    "abbreviated_size": "54",
+    "in_stock": false,
+    "sku": "M0E20000000FBHI"
+   },
+   {
+    "abbreviated_size": "56",
+    "in_stock": false,
+    "sku": "M0E20000000FBHJ"
+   },
+   {
+    "abbreviated_size": "58",
+    "in_stock": false,
+    "sku": "M0E20000000FBHK"
+   },
+   {
+    "abbreviated_size": "34",
+    "in_stock": false,
+    "sku": "M0E20000000FBH8"
+   }
+  ]
+ },
+ "jeans": {
+  "available_sizes": [
+   "24",
+   "25",
+   "26",
+   "27",
+   "28",
+   "29",
+   "30",
+   "31",
+   "32",
+   "33",
+   "34",
+   "35",
+   "36",
+   "37",
+   "38",
+   "40",
+   "42"
+  ],
+  "brand": "Michael Kors",
+  "category_page_id": [
+   "Men > Clothing",
+   "Men > Clothing > Trousers"
+  ],
+  "color": {
+   "filter_group": "red;#E10600",
+   "original_name": "bordeaux"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "men",
+  "hierarchical_categories": {
+   "lvl0": "Men",
+   "lvl1": "Men > Clothing",
+   "lvl2": "Men > Clothing > Trousers"
+  },
+  "image_blurred": "LaQ02JWB_Nj[9Fay?voLxFj[jZkC",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374793/flagship_sunrise/M0E20000000ELEL_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374793/flagship_sunrise/M0E20000000ELEL_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374794/flagship_sunrise/M0E20000000ELEL_2.jpg"
+  ],
+  "list_categories": [
+   "Men",
+   "Clothing",
+   "Trousers"
+  ],
+  "name": "Chino Michael Kors bordeaux",
+  "objectID": "M0E20000000ELEL",
+  "parentID": "CS53C660UA",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 186.25
+  },
+  "product_type": "Trousers",
+  "related_products": null,
+  "reviews": {
+   "bayesian_avg": 3.954545454545455,
+   "count": 87,
+   "rating": 4
+  },
+  "sku": "M0E20000000ELEL",
+  "slug": "michael-kors-chino-CS53C660UA-bordeaux",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "25",
+    "in_stock": false,
+    "sku": "M0E20000000ELEM"
+   },
+   {
+    "abbreviated_size": "26",
+    "in_stock": false,
+    "sku": "M0E20000000ELEN"
+   },
+   {
+    "abbreviated_size": "27",
+    "in_stock": false,
+    "sku": "M0E20000000ELEO"
+   },
+   {
+    "abbreviated_size": "28",
+    "in_stock": false,
+    "sku": "M0E20000000ELEP"
+   },
+   {
+    "abbreviated_size": "29",
+    "in_stock": false,
+    "sku": "M0E20000000ELEQ"
+   },
+   {
+    "abbreviated_size": "30",
+    "in_stock": true,
+    "sku": "M0E20000000ELER"
+   },
+   {
+    "abbreviated_size": "31",
+    "in_stock": true,
+    "sku": "M0E20000000ELES"
+   },
+   {
+    "abbreviated_size": "32",
+    "in_stock": true,
+    "sku": "M0E20000000ELET"
+   },
+   {
+    "abbreviated_size": "33",
+    "in_stock": true,
+    "sku": "M0E20000000ELEU"
+   },
+   {
+    "abbreviated_size": "34",
+    "in_stock": true,
+    "sku": "M0E20000000ELEV"
+   },
+   {
+    "abbreviated_size": "35",
+    "in_stock": false,
+    "sku": "M0E20000000ELEW"
+   },
+   {
+    "abbreviated_size": "36",
+    "in_stock": true,
+    "sku": "M0E20000000ELEX"
+   },
+   {
+    "abbreviated_size": "37",
+    "in_stock": false,
+    "sku": "M0E20000000ELEY"
+   },
+   {
+    "abbreviated_size": "38",
+    "in_stock": false,
+    "sku": "M0E20000000ELEZ"
+   },
+   {
+    "abbreviated_size": "40",
+    "in_stock": false,
+    "sku": "M0E20000000ELF0"
+   },
+   {
+    "abbreviated_size": "42",
+    "in_stock": false,
+    "sku": "M0E20000000ELF1"
+   },
+   {
+    "abbreviated_size": "24",
+    "in_stock": false,
+    "sku": "M0E20000000ELEL"
+   }
+  ]
+ },
+ "camisa_colarinho": {
+  "available_sizes": [
+   "14.5",
+   "15",
+   "15.5",
+   "16",
+   "16.5",
+   "17",
+   "17.5",
+   "18"
+  ],
+  "brand": "Polo Ralph Lauren",
+  "category_page_id": [
+   "Men > Clothing",
+   "Men > Clothing > Shirts"
+  ],
+  "color": {
+   "filter_group": "white;#FFF",
+   "original_name": "white"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "men",
+  "hierarchical_categories": {
+   "lvl0": "Men",
+   "lvl1": "Men > Clothing",
+   "lvl2": "Men > Clothing > Shirts"
+  },
+  "image_blurred": "LZQvdyof_2j[~qafE1fP9Zj[.8f6",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371333/flagship_sunrise/M0E20000000E2P9_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371334/flagship_sunrise/M0E20000000E2P9_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371335/flagship_sunrise/M0E20000000E2P9_2.jpg"
+  ],
+  "list_categories": [
+   "Men",
+   "Clothing",
+   "Shirts"
+  ],
+  "name": "Shirt Polo Ralph Lauren white",
+  "objectID": "M0E20000000E2P9",
+  "parentID": "A02WBDTR",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 123.75
+  },
+  "product_type": "Shirts",
+  "related_products": null,
+  "reviews": {
+   "bayesian_avg": 2.951612903225806,
+   "count": 61,
+   "rating": 3
+  },
+  "sku": "M0E20000000E2P9",
+  "slug": "poloralphlauren-shirt-A02WBDTR-white",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "15",
+    "in_stock": false,
+    "sku": "M0E20000000E2PA"
+   },
+   {
+    "abbreviated_size": "15.5",
+    "in_stock": true,
+    "sku": "M0E20000000E2PB"
+   },
+   {
+    "abbreviated_size": "16",
+    "in_stock": true,
+    "sku": "M0E20000000E2PC"
+   },
+   {
+    "abbreviated_size": "16.5",
+    "in_stock": false,
+    "sku": "M0E20000000E2PD"
+   },
+   {
+    "abbreviated_size": "17",
+    "in_stock": true,
+    "sku": "M0E20000000E2PE"
+   },
+   {
+    "abbreviated_size": "17.5",
+    "in_stock": false,
+    "sku": "M0E20000000E2PF"
+   },
+   {
+    "abbreviated_size": "18",
+    "in_stock": false,
+    "sku": "M0E20000000E2PG"
+   },
+   {
+    "abbreviated_size": "14.5",
+    "in_stock": false,
+    "sku": "M0E20000000E2P9"
+   }
+  ]
+ },
+ "roupa_0_7": {
+  "available_sizes": [
+   "0",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "brand": "Moncler",
+  "category_page_id": [
+   "Women > Clothing",
+   "Women > Clothing > Jackets"
+  ],
+  "color": {
+   "filter_group": "blue;#0075BB",
+   "original_name": "blue"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "women",
+  "hierarchical_categories": {
+   "lvl0": "Women",
+   "lvl1": "Women > Clothing",
+   "lvl2": "Women > Clothing > Jackets"
+  },
+  "image_blurred": "L:M%=wt7~qWVt7V@R-of-pkCWCay",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371146/flagship_sunrise/M0E20000000DU5Z_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371147/flagship_sunrise/M0E20000000DU5Z_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371148/flagship_sunrise/M0E20000000DU5Z_2.jpg"
+  ],
+  "list_categories": [
+   "Women",
+   "Clothing",
+   "Jackets"
+  ],
+  "name": "Down jacket ”Lans” Moncler blue",
+  "objectID": "M0E20000000DU5Z",
+  "parentID": "LANS",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 562.5
+  },
+  "product_type": "Jackets",
+  "related_products": [
+   {
+    "available_sizes": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "brand": "Moncler",
+    "category_page_id": [
+     "Women > Clothing",
+     "Women > Clothing > Jackets"
+    ],
+    "color": {
+     "filter_group": "black;#333",
+     "original_name": "black"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Clothing",
+     "lvl2": "Women > Clothing > Jackets"
+    },
+    "i18n": null,
+    "image_blurred": "L^L;dEWB~qofxuWBR*j[%Lj[bHj[",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372139/flagship_sunrise/M0E20000000DU69_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372140/flagship_sunrise/M0E20000000DU69_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372141/flagship_sunrise/M0E20000000DU69_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Clothing",
+     "Jackets"
+    ],
+    "name": "Down jacket ”Lans” Moncler black",
+    "objectID": "M0E20000000DU69",
+    "parentID": "LANS",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 562.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 1.967741935483871,
+     "count": 61,
+     "rating": 2
+    },
+    "sku": "M0E20000000DU69",
+    "slug": "moncler-downjacket-lans-999-black",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "1",
+      "in_stock": false,
+      "sku": "M0E20000000DU6A"
+     },
+     {
+      "abbreviated_size": "2",
+      "in_stock": false,
+      "sku": "M0E20000000DU6B"
+     },
+     {
+      "abbreviated_size": "3",
+      "in_stock": true,
+      "sku": "M0E20000000DU6C"
+     },
+     {
+      "abbreviated_size": "4",
+      "in_stock": true,
+      "sku": "M0E20000000DU6D"
+     },
+     {
+      "abbreviated_size": "5",
+      "in_stock": false,
+      "sku": "M0E20000000DU6E"
+     },
+     {
+      "abbreviated_size": "6",
+      "in_stock": false,
+      "sku": "M0E20000000DU6F"
+     },
+     {
+      "abbreviated_size": "7",
+      "in_stock": false,
+      "sku": "M0E20000000DU6G"
+     },
+     {
+      "abbreviated_size": "0",
+      "in_stock": false,
+      "sku": "M0E20000000DU69"
+     }
+    ]
+   }
+  ],
+  "reviews": {
+   "bayesian_avg": 3.92156862745098,
+   "count": 50,
+   "rating": 4
+  },
+  "sku": "M0E20000000DU5Z",
+  "slug": "moncler-downjacket-lans-778-blue",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "1",
+    "in_stock": false,
+    "sku": "M0E20000000DU60"
+   },
+   {
+    "abbreviated_size": "2",
+    "in_stock": false,
+    "sku": "M0E20000000DU61"
+   },
+   {
+    "abbreviated_size": "3",
+    "in_stock": true,
+    "sku": "M0E20000000DU62"
+   },
+   {
+    "abbreviated_size": "4",
+    "in_stock": false,
+    "sku": "M0E20000000DU63"
+   },
+   {
+    "abbreviated_size": "5",
+    "in_stock": false,
+    "sku": "M0E20000000DU64"
+   },
+   {
+    "abbreviated_size": "6",
+    "in_stock": false,
+    "sku": "M0E20000000DU65"
+   },
+   {
+    "abbreviated_size": "7",
+    "in_stock": false,
+    "sku": "M0E20000000DU66"
+   },
+   {
+    "abbreviated_size": "0",
+    "in_stock": false,
+    "sku": "M0E20000000DU5Z"
+   }
+  ]
+ },
+ "roupa_0_18": {
+  "available_sizes": [
+   "0",
+   "2",
+   "4",
+   "6",
+   "8",
+   "10",
+   "12",
+   "14",
+   "16",
+   "18"
+  ],
+  "brand": "Polo Ralph Lauren",
+  "category_page_id": [
+   "Women > Clothing",
+   "Women > Clothing > Dresses"
+  ],
+  "color": {
+   "filter_group": "blue;#0075BB",
+   "original_name": "blue"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "women",
+  "hierarchical_categories": {
+   "lvl0": "Women",
+   "lvl1": "Women > Clothing",
+   "lvl2": "Women > Clothing > Dresses"
+  },
+  "image_blurred": "LVR:HJay~pt7IWaz%1j?%0a|M~jt",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373649/flagship_sunrise/M0E20000000DVL9_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373650/flagship_sunrise/M0E20000000DVL9_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373651/flagship_sunrise/M0E20000000DVL9_2.jpg"
+  ],
+  "list_categories": [
+   "Women",
+   "Clothing",
+   "Dresses"
+  ],
+  "name": "Dress “Olivia“ Polo Ralph Lauren blue",
+  "objectID": "M0E20000000DVL9",
+  "parentID": "V33IG267",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 206.25
+  },
+  "product_type": "Dresses",
+  "related_products": null,
+  "reviews": {
+   "bayesian_avg": 2.884615384615385,
+   "count": 25,
+   "rating": 3
+  },
+  "sku": "M0E20000000DVL9",
+  "slug": "poloralphlauren-dress-olivia-CG237D14C9-blue",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "2",
+    "in_stock": false,
+    "sku": "M0E20000000DVLA"
+   },
+   {
+    "abbreviated_size": "4",
+    "in_stock": true,
+    "sku": "M0E20000000DVLB"
+   },
+   {
+    "abbreviated_size": "6",
+    "in_stock": false,
+    "sku": "M0E20000000DVLC"
+   },
+   {
+    "abbreviated_size": "8",
+    "in_stock": false,
+    "sku": "M0E20000000DVLD"
+   },
+   {
+    "abbreviated_size": "10",
+    "in_stock": false,
+    "sku": "M0E20000000DVLE"
+   },
+   {
+    "abbreviated_size": "12",
+    "in_stock": false,
+    "sku": "M0E20000000DVLF"
+   },
+   {
+    "abbreviated_size": "14",
+    "in_stock": false,
+    "sku": "M0E20000000DVLG"
+   },
+   {
+    "abbreviated_size": "16",
+    "in_stock": false,
+    "sku": "M0E20000000DVLH"
+   },
+   {
+    "abbreviated_size": "18",
+    "in_stock": false,
+    "sku": "M0E20000000DVLI"
+   },
+   {
+    "abbreviated_size": "0",
+    "in_stock": false,
+    "sku": "M0E20000000DVL9"
+   }
+  ]
+ },
+ "cinto": {
+  "available_sizes": [
+   "70",
+   "75",
+   "80",
+   "85",
+   "90",
+   "95",
+   "100",
+   "105",
+   "110",
+   "115",
+   "120"
+  ],
+  "brand": "Orciani",
+  "category_page_id": [
+   "Accessories > Women",
+   "Accessories > Women > Looks"
+  ],
+  "color": {
+   "filter_group": "black;#333",
+   "original_name": "black"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "women",
+  "hierarchical_categories": {
+   "lvl0": "Accessories",
+   "lvl1": "Accessories > Women",
+   "lvl2": "Accessories > Women > Looks"
+  },
+  "image_blurred": "LZRMYtof~qR*~qay9Fj@oeWBWBt7",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373049/flagship_sunrise/M0E20000000EB81_0.jpg",
+   "",
+   ""
+  ],
+  "list_categories": [
+   "Accessories",
+   "Women",
+   "Looks"
+  ],
+  "name": "Belt Orciani black",
+  "objectID": "M0E20000000EB81",
+  "parentID": "D09304",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -10,
+   "discounted_value": 111.37,
+   "on_sales": true,
+   "value": 123.75
+  },
+  "product_type": "Looks",
+  "related_products": [
+   {
+    "available_sizes": [
+     "70",
+     "75",
+     "80",
+     "85",
+     "90",
+     "95",
+     "100",
+     "105",
+     "110",
+     "115",
+     "120"
+    ],
+    "brand": "Orciani",
+    "category_page_id": [
+     "Accessories > Women",
+     "Accessories > Women > Looks"
+    ],
+    "color": {
+     "filter_group": "red;#E10600",
+     "original_name": "red"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Accessories",
+     "lvl1": "Accessories > Women",
+     "lvl2": "Accessories > Women > Looks"
+    },
+    "i18n": null,
+    "image_blurred": "LSS5|vMw.TtR?^kCMdkC%#%NVrM_",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376323/flagship_sunrise/M0E20000000EB79_0.jpg",
+     "",
+     ""
+    ],
+    "list_categories": [
+     "Accessories",
+     "Women",
+     "Looks"
+    ],
+    "name": "Belt Orciani red",
+    "objectID": "M0E20000000EB79",
+    "parentID": "D09304",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -10,
+     "discounted_value": 111.37,
+     "on_sales": true,
+     "value": 123.75
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 3.885714285714286,
+     "count": 34,
+     "rating": 4
+    },
+    "sku": "M0E20000000EB79",
+    "slug": "orciani-belt-d09304-red",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "75",
+      "in_stock": false,
+      "sku": "M0E20000000EB7A"
+     },
+     {
+      "abbreviated_size": "80",
+      "in_stock": false,
+      "sku": "M0E20000000EB7B"
+     },
+     {
+      "abbreviated_size": "85",
+      "in_stock": true,
+      "sku": "M0E20000000EB7C"
+     },
+     {
+      "abbreviated_size": "90",
+      "in_stock": true,
+      "sku": "M0E20000000EB7D"
+     },
+     {
+      "abbreviated_size": "95",
+      "in_stock": true,
+      "sku": "M0E20000000EB7E"
+     },
+     {
+      "abbreviated_size": "100",
+      "in_stock": false,
+      "sku": "M0E20000000EB7F"
+     },
+     {
+      "abbreviated_size": "105",
+      "in_stock": false,
+      "sku": "M0E20000000EB7G"
+     },
+     {
+      "abbreviated_size": "110",
+      "in_stock": false,
+      "sku": "M0E20000000EB7H"
+     },
+     {
+      "abbreviated_size": "115",
+      "in_stock": false,
+      "sku": "M0E20000000EB7I"
+     },
+     {
+      "abbreviated_size": "120",
+      "in_stock": false,
+      "sku": "M0E20000000EB7J"
+     },
+     {
+      "abbreviated_size": "70",
+      "in_stock": false,
+      "sku": "M0E20000000EB79"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "70",
+     "75",
+     "80",
+     "85",
+     "90",
+     "95",
+     "100",
+     "105",
+     "110",
+     "115",
+     "120"
+    ],
+    "brand": "Orciani",
+    "category_page_id": [
+     "Accessories > Women",
+     "Accessories > Women > Looks"
+    ],
+    "color": {
+     "filter_group": "grey;#777473",
+     "original_name": "grey"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Accessories",
+     "lvl1": "Accessories > Women",
+     "lvl2": "Accessories > Women > Looks"
+    },
+    "i18n": null,
+    "image_blurred": "LPRo~hIA_4x]_NozD%oL.8%gM{IU",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376452/flagship_sunrise/M0E20000000EB7K_0.jpg",
+     "",
+     ""
+    ],
+    "list_categories": [
+     "Accessories",
+     "Women",
+     "Looks"
+    ],
+    "name": "Belt Orciani grey",
+    "objectID": "M0E20000000EB7K",
+    "parentID": "D09304",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -10,
+     "discounted_value": 111.37,
+     "on_sales": true,
+     "value": 123.75
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 0,
+     "count": 34,
+     "rating": 0
+    },
+    "sku": "M0E20000000EB7K",
+    "slug": "orciani-belt-d09304-grey",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "75",
+      "in_stock": false,
+      "sku": "M0E20000000EB7L"
+     },
+     {
+      "abbreviated_size": "80",
+      "in_stock": false,
+      "sku": "M0E20000000EB7M"
+     },
+     {
+      "abbreviated_size": "85",
+      "in_stock": false,
+      "sku": "M0E20000000EB7N"
+     },
+     {
+      "abbreviated_size": "90",
+      "in_stock": true,
+      "sku": "M0E20000000EB7O"
+     },
+     {
+      "abbreviated_size": "95",
+      "in_stock": false,
+      "sku": "M0E20000000EB7P"
+     },
+     {
+      "abbreviated_size": "100",
+      "in_stock": false,
+      "sku": "M0E20000000EB7Q"
+     },
+     {
+      "abbreviated_size": "105",
+      "in_stock": false,
+      "sku": "M0E20000000EB7R"
+     },
+     {
+      "abbreviated_size": "110",
+      "in_stock": false,
+      "sku": "M0E20000000EB7S"
+     },
+     {
+      "abbreviated_size": "115",
+      "in_stock": false,
+      "sku": "M0E20000000EB7T"
+     },
+     {
+      "abbreviated_size": "120",
+      "in_stock": false,
+      "sku": "M0E20000000EB7U"
+     },
+     {
+      "abbreviated_size": "70",
+      "in_stock": false,
+      "sku": "M0E20000000EB7K"
+     }
+    ]
+   }
+  ],
+  "reviews": {
+   "bayesian_avg": 3.952380952380953,
+   "count": 83,
+   "rating": 4
+  },
+  "sku": "M0E20000000EB81",
+  "slug": "orciani-belt-d09304-black",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "75",
+    "in_stock": false,
+    "sku": "M0E20000000EB82"
+   },
+   {
+    "abbreviated_size": "80",
+    "in_stock": false,
+    "sku": "M0E20000000EB83"
+   },
+   {
+    "abbreviated_size": "85",
+    "in_stock": true,
+    "sku": "M0E20000000EB84"
+   },
+   {
+    "abbreviated_size": "90",
+    "in_stock": true,
+    "sku": "M0E20000000EB85"
+   },
+   {
+    "abbreviated_size": "95",
+    "in_stock": true,
+    "sku": "M0E20000000EB86"
+   },
+   {
+    "abbreviated_size": "100",
+    "in_stock": false,
+    "sku": "M0E20000000EB87"
+   },
+   {
+    "abbreviated_size": "105",
+    "in_stock": false,
+    "sku": "M0E20000000EB88"
+   },
+   {
+    "abbreviated_size": "110",
+    "in_stock": false,
+    "sku": "M0E20000000EB89"
+   },
+   {
+    "abbreviated_size": "115",
+    "in_stock": false,
+    "sku": "M0E20000000EB8A"
+   },
+   {
+    "abbreviated_size": "120",
+    "in_stock": false,
+    "sku": "M0E20000000EB8B"
+   },
+   {
+    "abbreviated_size": "70",
+    "in_stock": false,
+    "sku": "M0E20000000EB81"
+   }
+  ]
+ },
+ "bolsa_unica_com_related": {
+  "available_sizes": [
+   "one size"
+  ],
+  "brand": "Altea",
+  "category_page_id": [
+   "Accessories > Men",
+   "Accessories > Men > Clothing"
+  ],
+  "color": {
+   "filter_group": "blue;#0075BB",
+   "original_name": "blue"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "men",
+  "hierarchical_categories": {
+   "lvl0": "Accessories",
+   "lvl1": "Accessories > Men",
+   "lvl2": "Accessories > Men > Clothing"
+  },
+  "image_blurred": "LmPjMrj[?bofM{ayofay~qayM{ay",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375033/flagship_sunrise/A0E20000000252A_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375034/flagship_sunrise/A0E20000000252A_1.jpg",
+   ""
+  ],
+  "list_categories": [
+   "Accessories",
+   "Men",
+   "Clothing"
+  ],
+  "name": "Scarf Altea blue",
+  "objectID": "A0E20000000252A",
+  "parentID": "1550252",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -10,
+   "discounted_value": 92.25,
+   "on_sales": true,
+   "value": 102.5
+  },
+  "product_type": "Clothing",
+  "related_products": [
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Altea",
+    "category_page_id": [
+     "Accessories > Men"
+    ],
+    "color": {
+     "filter_group": "green;#00AD4A",
+     "original_name": "green"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "men",
+    "hierarchical_categories": {
+     "lvl0": "Accessories",
+     "lvl1": "Accessories > Men"
+    },
+    "i18n": null,
+    "image_blurred": "LnOp[Gof^,t7Rjayofax~qofM{Rj",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376874/flagship_sunrise/A0E20000000252B_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376875/flagship_sunrise/A0E20000000252B_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376876/flagship_sunrise/A0E20000000252B_2.jpg"
+    ],
+    "list_categories": [
+     "Accessories",
+     "Men"
+    ],
+    "name": "Scarf Altea green",
+    "objectID": "A0E20000000252B",
+    "parentID": "1550252",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -10,
+     "discounted_value": 92.25,
+     "on_sales": true,
+     "value": 102.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 0,
+     "count": 11,
+     "rating": 0
+    },
+    "sku": "A0E20000000252B",
+    "slug": "altea-scarf-1550252-green",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E20000000252B"
+     }
+    ]
+   }
+  ],
+  "reviews": {
+   "bayesian_avg": 3.96,
+   "count": 99,
+   "rating": 4
+  },
+  "sku": "A0E20000000252A",
+  "slug": "altea-scarf-1550252-blue",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "one size",
+    "in_stock": true,
+    "sku": "A0E20000000252A"
+   }
+  ]
+ },
+ "sem_cor": {
+  "available_sizes": [
+   "one size"
+  ],
+  "brand": "",
+  "category_page_id": [
+   "Accessories > Women"
+  ],
+  "color": {
+   "filter_group": "multicolor;https://res.cloudinary.com/hilnmyskv/image/upload/v1639065885/flagship_sunrise/color_wheel.svg",
+   "original_name": ""
+  },
+  "created_at": 0,
+  "description": "Our exQuisite Corpse has hand beaded this marvelous wax skull with a brown and blue design inspired by the Huichol people of Western Mexico. This unique skull is part of a limited collection. Please remember to support the jaw.",
+  "gender": "men",
+  "hierarchical_categories": {
+   "lvl0": "Accessories",
+   "lvl1": "Accessories > Women"
+  },
+  "image_blurred": "LZRV|RR+_4t6_4oeD$WXxuofM|Rk",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371194/flagship_sunrise/A0E200000002CHG_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371195/flagship_sunrise/A0E200000002CHG_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371196/flagship_sunrise/A0E200000002CHG_2.jpg"
+  ],
+  "list_categories": [
+   "Accessories",
+   "Women"
+  ],
+  "name": "Our exQuisite Corpse - Skull “Geometr Blu”",
+  "objectID": "A0E200000002CHG",
+  "parentID": "GEOMETR",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -10,
+   "discounted_value": 775.12,
+   "on_sales": true,
+   "value": 861.25
+  },
+  "product_type": "Women",
+  "related_products": null,
+  "reviews": {
+   "bayesian_avg": 3.936507936507936,
+   "count": 62,
+   "rating": 4
+  },
+  "sku": "A0E200000002CHG",
+  "slug": "our-exquisite-corpse-schaedel-GEOMETR-blue",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "one size",
+    "in_stock": true,
+    "sku": "A0E200000002CHG"
+   }
+  ]
+ },
+ "one_size_repetido": {
+  "available_sizes": [
+   "one size",
+   "one size",
+   "one size"
+  ],
+  "brand": "Gabs",
+  "category_page_id": [
+   "Women > Bags",
+   "Women > Bags > Shoulder bags"
+  ],
+  "color": {
+   "filter_group": "brown;#6c442c",
+   "original_name": "brown"
+  },
+  "created_at": 0,
+  "description": "High-quality and particularly creative handtaschens by GABS, by the Italian designer Franco Gabbrielli. A „must have” for the modern and self-confident woman. This bag is fast and easy moldable into two variations.",
+  "gender": "women",
+  "hierarchical_categories": {
+   "lvl0": "Women",
+   "lvl1": "Women > Bags",
+   "lvl2": "Women > Bags > Shoulder bags"
+  },
+  "image_blurred": "LfR.rzj[*Jj[.mfkMcf6yDazVsjt",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372200/flagship_sunrise/A0E200000002B40_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372200/flagship_sunrise/A0E200000002B40_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372201/flagship_sunrise/A0E200000002B40_2.jpg"
+  ],
+  "list_categories": [
+   "Women",
+   "Bags",
+   "Shoulder bags"
+  ],
+  "name": "Gabs – Bag “Sofia”",
+  "objectID": "A0E200000002B40",
+  "parentID": "SOFIA",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 210
+  },
+  "product_type": "Shoulder bags",
+  "related_products": [
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Handbag"
+    ],
+    "color": {
+     "filter_group": "green;#00AD4A",
+     "original_name": "green"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Handbag"
+    },
+    "i18n": null,
+    "image_blurred": "LnNUU|WB^,kB~Dj[Inf6^,j[IofQ",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638370847/flagship_sunrise/A0E200000001WG3_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638370848/flagship_sunrise/A0E200000001WG3_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638370849/flagship_sunrise/A0E200000001WG3_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Handbag"
+    ],
+    "name": "Bag “Sofia“ large Gabs",
+    "objectID": "A0E200000001WG3",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 197.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 3.8,
+     "count": 19,
+     "rating": 4
+    },
+    "sku": "A0E200000001WG3",
+    "slug": "gabs-bag-sofia-large-green",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000001WG3"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Shoulder bags"
+    ],
+    "color": {
+     "filter_group": "blue;#0075BB",
+     "original_name": "blue"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Shoulder bags"
+    },
+    "i18n": null,
+    "image_blurred": "LlNwWhay_3j[~pj[IUay_3fQM{j[",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371978/flagship_sunrise/A0E200000001WFT_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371979/flagship_sunrise/A0E200000001WFT_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638371980/flagship_sunrise/A0E200000001WFT_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Shoulder bags"
+    ],
+    "name": "Bag “Sofia“ medium Gabs",
+    "objectID": "A0E200000001WFT",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 185
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 0,
+     "count": 21,
+     "rating": 0
+    },
+    "sku": "A0E200000001WFT",
+    "slug": "gabs-bag-sofia-medium-blue",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000001WFT"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Handbag"
+    ],
+    "color": {
+     "filter_group": "beige;#EFDBB2",
+     "original_name": "cream"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Handbag"
+    },
+    "i18n": null,
+    "image_blurred": "LTR.=FX9%%t7yZoJVrax.Tn~ROWB",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372324/flagship_sunrise/A0E200000001WFK_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372325/flagship_sunrise/A0E200000001WFK_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372326/flagship_sunrise/A0E200000001WFK_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Handbag"
+    ],
+    "name": "Bag “Sofia“ large Gabs",
+    "objectID": "A0E200000001WFK",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 197.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 3.870967741935484,
+     "count": 30,
+     "rating": 4
+    },
+    "sku": "A0E200000001WFK",
+    "slug": "gabs-bag-sofia-large-cream",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000001WFK"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Handbag"
+    ],
+    "color": {
+     "filter_group": "green;#00AD4A",
+     "original_name": "light green"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Handbag"
+    },
+    "i18n": null,
+    "image_blurred": "LhS60aWsx{oftpj=aIax%jocV=WB",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372837/flagship_sunrise/A0E200000001WFO_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372839/flagship_sunrise/A0E200000001WFO_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372840/flagship_sunrise/A0E200000001WFO_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Handbag"
+    ],
+    "name": "Bag “Sofia“ large Gabs",
+    "objectID": "A0E200000001WFO",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 197.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 1.978723404255319,
+     "count": 93,
+     "rating": 2
+    },
+    "sku": "A0E200000001WFO",
+    "slug": "gabs-bag-sofia-large-lightgreen",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": false,
+      "sku": "A0E200000001WFO"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size",
+     "one size",
+     "one size",
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Shoulder bags"
+    ],
+    "color": {
+     "filter_group": "black;#333",
+     "original_name": "black"
+    },
+    "created_at": 0,
+    "description": "High-quality and particularly creative handtaschens by GABS, by the Italian designer Franco Gabbrielli. A „must have” for the modern and self-confident woman. This bag is fast and easy moldable into two variations.",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Shoulder bags"
+    },
+    "i18n": null,
+    "image_blurred": "LeQ0aPfQ~qof~qjtD%ay-;j[M{ay",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373193/flagship_sunrise/A0E200000002B42_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373194/flagship_sunrise/A0E200000002B42_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373195/flagship_sunrise/A0E200000002B42_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Shoulder bags"
+    ],
+    "name": "Gabs – Bag “Sofia”",
+    "objectID": "A0E200000002B42",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 210
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 0,
+     "count": 44,
+     "rating": 0
+    },
+    "sku": "A0E200000002B42",
+    "slug": "gabs-bag-SOFIAMIX-L-black",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000002B47"
+     },
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000002B4H"
+     },
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000002B4R"
+     },
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000002B42"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Shoulder bags"
+    ],
+    "color": {
+     "filter_group": "red;#E10600",
+     "original_name": "red"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Shoulder bags"
+    },
+    "i18n": null,
+    "image_blurred": "LmQ+82WW.Sof*JjZR5a|.Sj[R5ay",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373356/flagship_sunrise/A0E200000001WFS_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373357/flagship_sunrise/A0E200000001WFS_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638373358/flagship_sunrise/A0E200000001WFS_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Shoulder bags"
+    ],
+    "name": "Bag “Sofia“ large Gabs",
+    "objectID": "A0E200000001WFS",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 197.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 1.970149253731343,
+     "count": 66,
+     "rating": 2
+    },
+    "sku": "A0E200000001WFS",
+    "slug": "gabs-bag-sofia-large-red",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000001WFS"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Handbag"
+    ],
+    "color": {
+     "filter_group": "red;#E10600",
+     "original_name": "red"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Handbag"
+    },
+    "i18n": null,
+    "image_blurred": "LmQ+82WW.Sof*JjZR5a|.Sj[R5ay",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374468/flagship_sunrise/A0E200000001WFR_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374469/flagship_sunrise/A0E200000001WFR_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374470/flagship_sunrise/A0E200000001WFR_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Handbag"
+    ],
+    "name": "Bag “Sofia“ medium Gabs",
+    "objectID": "A0E200000001WFR",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 185
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 1.979381443298969,
+     "count": 96,
+     "rating": 2
+    },
+    "sku": "A0E200000001WFR",
+    "slug": "gabs-bag-sofia-medium-red",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000001WFR"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Handbag"
+    ],
+    "color": {
+     "filter_group": "beige;#EFDBB2",
+     "original_name": "cream"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Handbag"
+    },
+    "i18n": null,
+    "image_blurred": "LTR.=FX9%%t7yZoJVrax.Tn~ROWB",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374807/flagship_sunrise/A0E200000001WFJ_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374808/flagship_sunrise/A0E200000001WFJ_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638374809/flagship_sunrise/A0E200000001WFJ_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Handbag"
+    ],
+    "name": "Bag “Sofia“ medium Gabs",
+    "objectID": "A0E200000001WFJ",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 185
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 1.972602739726027,
+     "count": 72,
+     "rating": 2
+    },
+    "sku": "A0E200000001WFJ",
+    "slug": "gabs-bag-sofia-medium-cream",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000001WFJ"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Handbag"
+    ],
+    "color": {
+     "filter_group": "green;#00AD4A",
+     "original_name": "green"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Handbag"
+    },
+    "i18n": null,
+    "image_blurred": "LnNUU|WB^,kB~Dj[Inf6^,j[IofQ",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375040/flagship_sunrise/A0E200000001WG2_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375041/flagship_sunrise/A0E200000001WG2_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375042/flagship_sunrise/A0E200000001WG2_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Handbag"
+    ],
+    "name": "Bag “Sofia“ medium Gabs",
+    "objectID": "A0E200000001WG2",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 185
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 1.933333333333333,
+     "count": 29,
+     "rating": 2
+    },
+    "sku": "A0E200000001WG2",
+    "slug": "gabs-bag-sofia-medium-green",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": true,
+      "sku": "A0E200000001WG2"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Shoulder bags"
+    ],
+    "color": {
+     "filter_group": "blue;#0075BB",
+     "original_name": "blue"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Shoulder bags"
+    },
+    "i18n": null,
+    "image_blurred": "LlNwWhay_3j[~pj[IUay_3fQM{j[",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375600/flagship_sunrise/A0E200000001WG1_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375602/flagship_sunrise/A0E200000001WG1_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375603/flagship_sunrise/A0E200000001WG1_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Shoulder bags"
+    ],
+    "name": "Bag “Sofia“ large Gabs",
+    "objectID": "A0E200000001WG1",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 197.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 3.957894736842105,
+     "count": 94,
+     "rating": 4
+    },
+    "sku": "A0E200000001WG1",
+    "slug": "gabs-bag-sofia-large-blue",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": false,
+      "sku": "A0E200000001WG1"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Shoulder bags"
+    ],
+    "color": {
+     "filter_group": "brown;#6c442c",
+     "original_name": "brown"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Shoulder bags"
+    },
+    "i18n": null,
+    "image_blurred": "LhQSo1bb.Ss:.TjZMxWV?vjsM_ay",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376068/flagship_sunrise/A0E200000001WFM_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376070/flagship_sunrise/A0E200000001WFM_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376071/flagship_sunrise/A0E200000001WFM_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Shoulder bags"
+    ],
+    "name": "Bag “Sofia“ large Gabs",
+    "objectID": "A0E200000001WFM",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 197.5
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 3.925925925925926,
+     "count": 53,
+     "rating": 4
+    },
+    "sku": "A0E200000001WFM",
+    "slug": "gabs-bag-sofia-large-brown",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": false,
+      "sku": "A0E200000001WFM"
+     }
+    ]
+   },
+   {
+    "available_sizes": [
+     "one size"
+    ],
+    "brand": "Gabs",
+    "category_page_id": [
+     "Women > Bags",
+     "Women > Bags > Shoulder bags"
+    ],
+    "color": {
+     "filter_group": "green;#00AD4A",
+     "original_name": "light green"
+    },
+    "created_at": 0,
+    "description": "",
+    "gender": "women",
+    "hierarchical_categories": {
+     "lvl0": "Women",
+     "lvl1": "Women > Bags",
+     "lvl2": "Women > Bags > Shoulder bags"
+    },
+    "i18n": null,
+    "image_blurred": "LhS60aWsx{oftpj=aIax%jocV=WB",
+    "image_urls": [
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376134/flagship_sunrise/A0E200000001WFN_0.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376135/flagship_sunrise/A0E200000001WFN_1.jpg",
+     "https://res.cloudinary.com/hilnmyskv/image/upload/v1638376136/flagship_sunrise/A0E200000001WFN_2.jpg"
+    ],
+    "list_categories": [
+     "Women",
+     "Bags",
+     "Shoulder bags"
+    ],
+    "name": "Bag “Sofia“ medium Gabs",
+    "objectID": "A0E200000001WFN",
+    "parentID": "SOFIA",
+    "price": {
+     "currency": "EUR",
+     "discount_level": -100,
+     "discounted_value": 0,
+     "on_sales": false,
+     "value": 185
+    },
+    "related_products": null,
+    "reviews": {
+     "bayesian_avg": 2.946428571428572,
+     "count": 55,
+     "rating": 3
+    },
+    "sku": "A0E200000001WFN",
+    "slug": "gabs-bag-sofia-medium-lightgreen",
+    "units_in_stock": 0,
+    "updated_at": 0,
+    "url": "",
+    "variants": [
+     {
+      "abbreviated_size": "one size",
+      "in_stock": false,
+      "sku": "A0E200000001WFN"
+     }
+    ]
+   }
+  ],
+  "reviews": {
+   "bayesian_avg": 2.966666666666667,
+   "count": 89,
+   "rating": 3
+  },
+  "sku": "A0E200000002B40",
+  "slug": "gabs-bag-SOFIAMIX-L-brown",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "one size",
+    "in_stock": true,
+    "sku": "A0E200000002B48"
+   },
+   {
+    "abbreviated_size": "one size",
+    "in_stock": true,
+    "sku": "A0E200000002B4I"
+   },
+   {
+    "abbreviated_size": "one size",
+    "in_stock": true,
+    "sku": "A0E200000002B40"
+   }
+  ]
+ },
+ "camiseta_36_45": {
+  "available_sizes": [
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41",
+   "42",
+   "43",
+   "44",
+   "45"
+  ],
+  "brand": "Sartorialist",
+  "category_page_id": [
+   "Men > Clothing",
+   "Men > Clothing > T-shirts"
+  ],
+  "color": {
+   "filter_group": "blue;#0075BB",
+   "original_name": "light blue"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "men",
+  "hierarchical_categories": {
+   "lvl0": "Men",
+   "lvl1": "Men > Clothing",
+   "lvl2": "Men > Clothing > T-shirts"
+  },
+  "image_blurred": "LRRV^Lj@_4kC%ifRRNj@ita|x^js",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372024/flagship_sunrise/M0E20000000EF0X_0.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372025/flagship_sunrise/M0E20000000EF0X_1.jpg",
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638372026/flagship_sunrise/M0E20000000EF0X_2.jpg"
+  ],
+  "list_categories": [
+   "Men",
+   "Clothing",
+   "T-shirts"
+  ],
+  "name": "Shirt The Sartorialist light blue",
+  "objectID": "M0E20000000EF0X",
+  "parentID": "404U",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -100,
+   "discounted_value": 0,
+   "on_sales": false,
+   "value": 186.25
+  },
+  "product_type": "T-shirts",
+  "related_products": null,
+  "reviews": {
+   "bayesian_avg": 0,
+   "count": 13,
+   "rating": 0
+  },
+  "sku": "M0E20000000EF0X",
+  "slug": "the-satorialist-shirt-404U-lightblue",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "37",
+    "in_stock": false,
+    "sku": "M0E20000000EF0Y"
+   },
+   {
+    "abbreviated_size": "38",
+    "in_stock": false,
+    "sku": "M0E20000000EF0Z"
+   },
+   {
+    "abbreviated_size": "39",
+    "in_stock": true,
+    "sku": "M0E20000000EF10"
+   },
+   {
+    "abbreviated_size": "40",
+    "in_stock": false,
+    "sku": "M0E20000000EF11"
+   },
+   {
+    "abbreviated_size": "41",
+    "in_stock": false,
+    "sku": "M0E20000000EF12"
+   },
+   {
+    "abbreviated_size": "42",
+    "in_stock": false,
+    "sku": "M0E20000000EF13"
+   },
+   {
+    "abbreviated_size": "43",
+    "in_stock": true,
+    "sku": "M0E20000000EF14"
+   },
+   {
+    "abbreviated_size": "44",
+    "in_stock": false,
+    "sku": "M0E20000000EF15"
+   },
+   {
+    "abbreviated_size": "45",
+    "in_stock": false,
+    "sku": "M0E20000000EF16"
+   },
+   {
+    "abbreviated_size": "36",
+    "in_stock": false,
+    "sku": "M0E20000000EF0X"
+   }
+  ]
+ },
+ "acessorio_promo": {
+  "available_sizes": [
+   "XXS",
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "XXXL"
+  ],
+  "brand": "Guess",
+  "category_page_id": [
+   "Accessories > Women",
+   "Accessories > Women > Looks"
+  ],
+  "color": {
+   "filter_group": "brown;#6c442c",
+   "original_name": "brown"
+  },
+  "created_at": 0,
+  "description": "",
+  "gender": "women",
+  "hierarchical_categories": {
+   "lvl0": "Accessories",
+   "lvl1": "Accessories > Women",
+   "lvl2": "Accessories > Women > Looks"
+  },
+  "image_blurred": "LqQck.WB?bt7~qj[IUWBRjofWBay",
+  "image_urls": [
+   "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375520/flagship_sunrise/M0E20000000DNU3_0.jpg",
+   "",
+   ""
+  ],
+  "list_categories": [
+   "Accessories",
+   "Women",
+   "Looks"
+  ],
+  "name": "Belt Guess black",
+  "objectID": "M0E20000000DNU3",
+  "parentID": "BW2078",
+  "price": {
+   "currency": "EUR",
+   "discount_level": -10,
+   "discounted_value": 55.12,
+   "on_sales": true,
+   "value": 61.25
+  },
+  "product_type": "Looks",
+  "related_products": null,
+  "reviews": {
+   "bayesian_avg": 2.97,
+   "count": 99,
+   "rating": 3
+  },
+  "sku": "M0E20000000DNU3",
+  "slug": "guess-belt-bw2078-black",
+  "units_in_stock": 0,
+  "updated_at": 0,
+  "variants": [
+   {
+    "abbreviated_size": "XS",
+    "in_stock": false,
+    "sku": "M0E20000000DNU4"
+   },
+   {
+    "abbreviated_size": "S",
+    "in_stock": false,
+    "sku": "M0E20000000DNU5"
+   },
+   {
+    "abbreviated_size": "M",
+    "in_stock": false,
+    "sku": "M0E20000000DNU6"
+   },
+   {
+    "abbreviated_size": "L",
+    "in_stock": true,
+    "sku": "M0E20000000DNU7"
+   },
+   {
+    "abbreviated_size": "XL",
+    "in_stock": false,
+    "sku": "M0E20000000DNU8"
+   },
+   {
+    "abbreviated_size": "XXL",
+    "in_stock": false,
+    "sku": "M0E20000000DNU9"
+   },
+   {
+    "abbreviated_size": "XXXL",
+    "in_stock": false,
+    "sku": "M0E20000000DNUA"
+   },
+   {
+    "abbreviated_size": "XXS",
+    "in_stock": false,
+    "sku": "M0E20000000DNU3"
+   }
+  ]
+ }
+}

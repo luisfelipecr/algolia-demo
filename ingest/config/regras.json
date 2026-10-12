@@ -1,0 +1,77 @@
+[
+ {
+  "objectID": "promocao-filtra-em-promocao",
+  "description": "Busca com \"promoção\" filtra os produtos em promoção e tira a palavra da busca. Dono: merchandising da demo. Revisar se a promoção mudar de escopo (hoje só acessórios).",
+  "conditions": [
+   {
+    "pattern": "promoção",
+    "anchoring": "contains",
+    "alternatives": false
+   }
+  ],
+  "consequence": {
+   "params": {
+    "filters": "em_promocao:true",
+    "query": {
+     "edits": [
+      {
+       "type": "remove",
+       "delete": "promoção"
+      }
+     ]
+    }
+   }
+  },
+  "enabled": true
+ },
+ {
+  "objectID": "liquidacao-filtra-em-promocao",
+  "description": "Busca com \"liquidação\" filtra os produtos em promoção e tira a palavra da busca. Dono: merchandising da demo. Revisar se a promoção mudar de escopo (hoje só acessórios).",
+  "conditions": [
+   {
+    "pattern": "liquidação",
+    "anchoring": "contains",
+    "alternatives": false
+   }
+  ],
+  "consequence": {
+   "params": {
+    "filters": "em_promocao:true",
+    "query": {
+     "edits": [
+      {
+       "type": "remove",
+       "delete": "liquidação"
+      }
+     ]
+    }
+   }
+  },
+  "enabled": true
+ },
+ {
+  "objectID": "oferta-filtra-em-promocao",
+  "description": "Busca com \"oferta\" filtra os produtos em promoção e tira a palavra da busca. Dono: merchandising da demo. Revisar se a promoção mudar de escopo (hoje só acessórios).",
+  "conditions": [
+   {
+    "pattern": "oferta",
+    "anchoring": "contains",
+    "alternatives": false
+   }
+  ],
+  "consequence": {
+   "params": {
+    "filters": "em_promocao:true",
+    "query": {
+     "edits": [
+      {
+       "type": "remove",
+       "delete": "oferta"
+      }
+     ]
+    }
+   }
+  },
+  "enabled": true
+ }
+]

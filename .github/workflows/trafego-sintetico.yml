@@ -1,0 +1,30 @@
+# Tráfego sintético e declarado para o analytics da demo (sintetico/rodar.py).
+# Desligado até existir a variável do repo TRAFEGO_SINTETICO=ligado e os secrets ALGOLIA_APP_ID e
+# ALGOLIA_SINTETICO_KEY (chave só com search que impõe analyticsTags=sintetico; o script confere).
+# 4 vezes ao dia x 11 buscas = cerca de 1.340 buscas por mês da cota de 10K.
+name: trafego-sintetico
+
+on:
+  schedule:
+    - cron: "17 1,7,13,19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trafego-sintetico
+  cancel-in-progress: false
+
+jobs:
+  enviar:
+    if: vars.TRAFEGO_SINTETICO == 'ligado'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv run python -m sintetico.rodar --aplicar
+        env:
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_SINTETICO_KEY: ${{ secrets.ALGOLIA_SINTETICO_KEY }}

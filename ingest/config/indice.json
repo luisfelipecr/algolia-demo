@@ -1,0 +1,54 @@
+{
+ "searchableAttributes": [
+  "nome",
+  "marca",
+  "unordered(categoria)",
+  "unordered(categorias.lvl1)",
+  "unordered(cor)",
+  "unordered(grupo_cor)",
+  "unordered(genero)",
+  "unordered(descricao)",
+  "unordered(tamanhos_disponiveis)"
+ ],
+ "attributesForFaceting": [
+  "searchable(marca)",
+  "categorias.lvl0",
+  "categorias.lvl1",
+  "categorias.lvl2",
+  "genero",
+  "grupo_cor",
+  "tamanhos_disponiveis",
+  "filterOnly(grade)",
+  "em_promocao",
+  "em_estoque",
+  "preco",
+  "filterOnly(referencia)"
+ ],
+ "customRanking": ["desc(em_estoque)", "desc(avaliacao_bayes)"],
+ "attributeForDistinct": "referencia",
+ "distinct": false,
+ "queryLanguages": ["pt"],
+ "indexLanguages": ["pt"],
+ "ignorePlurals": ["pt"],
+ "removeStopWords": ["pt"],
+ "optionalWords": ["tamanho", "número", "numero", "tam"],
+ "attributesToHighlight": ["nome", "marca"],
+ "attributesToSnippet": ["descricao:20"],
+ "unretrievableAttributes": ["avaliacao_bayes"],
+ "hitsPerPage": 24,
+ "maxValuesPerFacet": 100,
+ "renderingContent": {
+  "facetOrdering": {
+   "facets": {
+    "order": ["categorias.lvl0", "tamanhos_disponiveis", "grupo_cor", "marca", "preco", "genero", "em_promocao"]
+   },
+   "values": {
+    "tamanhos_disponiveis": {"order": ["PP", "P", "M", "G", "GG", "XGG"], "sortRemainingBy": "alpha"},
+    "grupo_cor": {"sortRemainingBy": "count"},
+    "marca": {"sortRemainingBy": "count"},
+    "genero": {"sortRemainingBy": "count"},
+    "categorias.lvl0": {"sortRemainingBy": "count"}
+   }
+  }
+ }
+}

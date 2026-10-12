@@ -1,0 +1,27 @@
+# Segredos: só no .env local e no ambiente de deploy
+.env
+.env.*
+!.env.example
+
+# Dados brutos e intermediários (o dataset original e as traduções geradas)
+data/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.vercel/
+
+# Editor / SO / ferramentas
+.vscode/
+.idea/
+.DS_Store
+.claude/worktrees/
+.claude/settings.local.json

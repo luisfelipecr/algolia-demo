@@ -1,0 +1,570 @@
+{
+ "sobre": "Golden set de busca da loja em inglês (/en, índice produtos_en). Mesmas regras do golden set pt (evals/consultas.json): expectativas semânticas no hit ou contra o catálogo local data/algolia/registros_en.json (gere com `uv run python -m ingest.indexar --idioma en`). Foco no que muda com o idioma: plural e stop words em inglês, sinônimos US/UK, Rule de sale e a palavra opcional 'size'.",
+ "indice_padrao": "produtos_en",
+ "parametros_comuns": {
+  "hitsPerPage": 20,
+  "attributesToRetrieve": [
+   "nome",
+   "marca",
+   "categoria",
+   "categorias",
+   "genero",
+   "cor",
+   "grupo_cor",
+   "preco",
+   "preco_de",
+   "em_promocao",
+   "em_estoque",
+   "tamanhos_disponiveis",
+   "grade"
+  ],
+  "attributesToHighlight": [],
+  "attributesToSnippet": [],
+  "analytics": false,
+  "clickAnalytics": false
+ },
+ "consultas": [
+  {
+   "id": "plural-bags",
+   "grupo": "plural",
+   "consulta": "bags",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "ignorePlurals en: 'bags' acha 'bag' e a categoria Bags. Os poucos hits que casam só pela descrição (que não vem no hit) ou por erro de digitação ficam no fim; a precisão vale nos primeiros 20.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categorias.lvl1",
+        "op": "igual",
+        "valor": "Women > Bags"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": [
+         "bag",
+         "bags",
+         "handbag",
+         "handbags"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "categorias.lvl1",
+      "op": "igual",
+      "valor": "Women > Bags"
+     }
+    }
+   ]
+  },
+  {
+   "id": "typo-sneekers",
+   "grupo": "erro de digitação",
+   "consulta": "sneekers",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Tolerância a erro de digitação também em inglês.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Sneakers"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": [
+         "sneaker",
+         "sneakers"
+        ]
+       }
+      ]
+     },
+     "primeiros": 20
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "categoria",
+      "op": "igual",
+      "valor": "Sneakers"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sinonimo-trainers",
+   "grupo": "sinônimo",
+   "consulta": "trainers",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Trainers é o sneaker no inglês britânico; o catálogo só diz sneakers.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Sneakers"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": [
+         "sneaker",
+         "sneakers",
+         "trainer",
+         "trainers"
+        ]
+       }
+      ]
+     },
+     "primeiros": 20
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "categoria",
+      "op": "igual",
+      "valor": "Sneakers"
+     }
+    }
+   ]
+  },
+  {
+   "id": "grafia-gray-bag",
+   "grupo": "grafia US/UK",
+   "consulta": "gray bag",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "O catálogo escreve 'grey' (britânico); quem busca nos EUA digita 'gray'. Hit que casa só pela descrição ('grey' no texto) fica depois; a precisão vale nos primeiros 20.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "grupo_cor",
+        "op": "igual",
+        "valor": "grey"
+       },
+       {
+        "campo": "cor",
+        "op": "contem_palavra",
+        "valor": [
+         "grey",
+         "gray"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categorias.lvl1",
+        "op": "igual",
+        "valor": "Women > Bags"
+       },
+       {
+        "campo": "grupo_cor",
+        "op": "igual",
+        "valor": "grey"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "genero-women-sneakers",
+   "grupo": "gênero",
+   "consulta": "women sneakers",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Gênero na busca: 'women' casa com o gênero e a categoria.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "genero",
+      "op": "igual",
+      "valor": "Women"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Sneakers"
+       },
+       {
+        "campo": "genero",
+        "op": "igual",
+        "valor": "Women"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "tamanho-sneakers-size-39",
+   "grupo": "tamanho (texto)",
+   "consulta": "sneakers size 39",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "'size' é optionalWord e o tamanho em estoque é pesquisável: só vem quem tem o 39 em estoque.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "tamanhos_disponiveis",
+      "op": "inclui",
+      "valor": "39"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Sneakers"
+       },
+       {
+        "campo": "tamanhos_disponiveis",
+        "op": "inclui",
+        "valor": "39"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "rule-belt-sale",
+   "grupo": "Rule de promoção",
+   "consulta": "belt sale",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "A Rule tira 'sale' da busca e filtra em_promocao:true.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "em_promocao",
+      "op": "igual",
+      "valor": true
+     }
+    },
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "belt"
+     },
+     "primeiros": 20
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "belt"
+       },
+       {
+        "campo": "em_promocao",
+        "op": "igual",
+        "valor": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sinonimo-hoodie",
+   "grupo": "sinônimo",
+   "consulta": "hoodie",
+   "nota": "One-way hoodie → sweatshirt: calça de moletom não é hoodie.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "_pesquisavel",
+      "op": "contem_palavra",
+      "valor": [
+       "hoodie",
+       "sweatshirt",
+       "hooded"
+      ]
+     }
+    },
+    {
+     "tipo": "nenhum",
+     "condicao": {
+      "qualquer": [
+       {
+        "campo": "categoria",
+        "op": "igual",
+        "valor": "Trousers"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": [
+         "pants",
+         "trousers"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sinonimo-puffer",
+   "grupo": "sinônimo",
+   "consulta": "puffer",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Puffer é a peça de plumas (down jacket, coat ou vest).",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "down"
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "down"
+       },
+       {
+        "qualquer": [
+         {
+          "campo": "nome",
+          "op": "contem_palavra",
+          "valor": [
+           "jacket",
+           "coat",
+           "vest"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sinonimo-tee",
+   "grupo": "sinônimo",
+   "consulta": "tee",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "Tee é a camiseta (T-shirt). A categoria 'T-shirts' da origem mistura tops e camisas, então o recall é pelo nome: todo produto chamado T-shirt.",
+   "expectativas": [
+    {
+     "tipo": "todos",
+     "primeiros": 20,
+     "condicao": {
+      "todas": [
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "t"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "shirt"
+       }
+      ]
+     }
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "todas": [
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "t"
+       },
+       {
+        "campo": "nome",
+        "op": "contem_palavra",
+        "valor": "shirt"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sem-resultado-refrigerator",
+   "grupo": "sem resultado legítimo",
+   "consulta": "refrigerator",
+   "nota": "Fora do sortimento: zero é a resposta certa.",
+   "expectativas": [
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "campo": "_pesquisavel",
+      "op": "contem_palavra",
+      "valor": [
+       "refrigerator",
+       "refrigerators"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "vazia-categoria-women-shoes",
+   "grupo": "consulta vazia com filtro hierárquico",
+   "consulta": "",
+   "parametros": {
+    "facetFilters": [
+     "categorias.lvl1:Women > Shoes"
+    ]
+   },
+   "nota": "Navegação por categoria em inglês: a contagem bate exatamente com o catálogo.",
+   "expectativas": [
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "campo": "categorias.lvl1",
+      "op": "igual",
+      "valor": "Women > Shoes"
+     }
+    },
+    {
+     "tipo": "todos",
+     "condicao": {
+      "campo": "categorias.lvl1",
+      "op": "igual",
+      "valor": "Women > Shoes"
+     }
+    }
+   ]
+  },
+  {
+   "id": "replica-jacket-preco-asc",
+   "grupo": "ordenação por replica",
+   "consulta": "jacket",
+   "indice": "produtos_en_preco_asc",
+   "parametros": {
+    "hitsPerPage": 1000
+   },
+   "nota": "'Lowest price' na loja /en.",
+   "expectativas": [
+    {
+     "tipo": "ordenado",
+     "campo": "preco",
+     "sentido": "asc"
+    },
+    {
+     "tipo": "recall_catalogo",
+     "regra": {
+      "campo": "nome",
+      "op": "contem_palavra",
+      "valor": "jacket"
+     }
+    }
+   ]
+  },
+  {
+   "id": "smoke-catalogo-e-invariantes",
+   "grupo": "smoke e invariantes",
+   "consulta": "",
+   "parametros": {
+    "hitsPerPage": 1000,
+    "attributesToRetrieve": [
+     "nome",
+     "preco",
+     "preco_de",
+     "em_promocao",
+     "em_estoque",
+     "tamanhos_disponiveis",
+     "grade",
+     "avaliacao_bayes"
+    ]
+   },
+   "nota": "O índice tem o catálogo inteiro (reconstruível a partir do repo) e os records respeitam as regras do conector. avaliacao_bayes está em unretrievableAttributes: não pode sair no payload nem quando pedido.",
+   "expectativas": [
+    {
+     "tipo": "nb_hits_catalogo",
+     "comparacao": "igual",
+     "regra": {
+      "todas": []
+     }
+    },
+    {
+     "tipo": "invariante",
+     "nome": "estoque_coerente"
+    },
+    {
+     "tipo": "invariante",
+     "nome": "promocao_coerente"
+    },
+    {
+     "tipo": "invariante",
+     "nome": "tamanhos_na_grade"
+    },
+    {
+     "tipo": "nenhum",
+     "condicao": {
+      "campo": "avaliacao_bayes",
+      "op": "presente"
+     }
+    }
+   ]
+  }
+ ]
+}

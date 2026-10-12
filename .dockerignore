@@ -1,0 +1,9 @@
+# só entra na imagem o que o copiloto usa (lista de permissão)
+*
+!pyproject.toml
+!uv.lock
+!copiloto/
+!ingest/
+**/__pycache__
+**/tests
+**/.pytest_cache

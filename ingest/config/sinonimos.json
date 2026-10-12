@@ -1,0 +1,172 @@
+[
+ {
+  "objectID": "tenis-sneaker",
+  "type": "synonym",
+  "synonyms": [
+   "tênis",
+   "sneaker",
+   "sneakers"
+  ]
+ },
+ {
+  "objectID": "moletom-hoodie",
+  "type": "oneWaySynonym",
+  "input": "hoodie",
+  "synonyms": [
+   "moletom com capuz",
+   "blusa de moletom"
+  ]
+ },
+ {
+  "objectID": "jaqueta-plumas-puffer",
+  "type": "oneWaySynonym",
+  "input": "puffer",
+  "synonyms": [
+   "jaqueta de plumas",
+   "casaco de plumas",
+   "colete de plumas"
+  ]
+ },
+ {
+  "objectID": "cachecol-echarpe",
+  "type": "synonym",
+  "synonyms": [
+   "cachecol",
+   "echarpe"
+  ]
+ },
+ {
+  "objectID": "mocassim-loafer",
+  "type": "synonym",
+  "synonyms": [
+   "mocassim",
+   "loafer",
+   "loafers"
+  ]
+ },
+ {
+  "objectID": "alpargata-espadrille",
+  "type": "synonym",
+  "synonyms": [
+   "alpargata",
+   "espadrille",
+   "espadrilles"
+  ]
+ },
+ {
+  "objectID": "oculos-sol",
+  "type": "synonym",
+  "synonyms": [
+   "óculos de sol",
+   "óculos escuros"
+  ]
+ },
+ {
+  "objectID": "carregador-powerbank",
+  "type": "synonym",
+  "synonyms": [
+   "carregador portátil",
+   "power bank",
+   "powerbank"
+  ]
+ },
+ {
+  "objectID": "camiseta-tshirt",
+  "type": "synonym",
+  "synonyms": [
+   "camiseta",
+   "t-shirt",
+   "tshirt"
+  ]
+ },
+ {
+  "objectID": "genero-feminino",
+  "type": "synonym",
+  "synonyms": [
+   "feminino",
+   "feminina",
+   "mulher"
+  ]
+ },
+ {
+  "objectID": "genero-masculino",
+  "type": "synonym",
+  "synonyms": [
+   "masculino",
+   "masculina",
+   "homem"
+  ]
+ },
+ {
+  "objectID": "cor-preto",
+  "type": "synonym",
+  "synonyms": [
+   "preto",
+   "preta"
+  ]
+ },
+ {
+  "objectID": "cor-branco",
+  "type": "synonym",
+  "synonyms": [
+   "branco",
+   "branca"
+  ]
+ },
+ {
+  "objectID": "cor-vermelho",
+  "type": "synonym",
+  "synonyms": [
+   "vermelho",
+   "vermelha"
+  ]
+ },
+ {
+  "objectID": "cor-amarelo",
+  "type": "synonym",
+  "synonyms": [
+   "amarelo",
+   "amarela"
+  ]
+ },
+ {
+  "objectID": "cor-roxo",
+  "type": "synonym",
+  "synonyms": [
+   "roxo",
+   "roxa"
+  ]
+ },
+ {
+  "objectID": "cor-dourado",
+  "type": "synonym",
+  "synonyms": [
+   "dourado",
+   "dourada"
+  ]
+ },
+ {
+  "objectID": "cor-escuro",
+  "type": "synonym",
+  "synonyms": [
+   "escuro",
+   "escura"
+  ]
+ },
+ {
+  "objectID": "cor-claro",
+  "type": "synonym",
+  "synonyms": [
+   "claro",
+   "clara"
+  ]
+ },
+ {
+  "objectID": "cor-platinado",
+  "type": "synonym",
+  "synonyms": [
+   "platinado",
+   "platinada"
+  ]
+ }
+]

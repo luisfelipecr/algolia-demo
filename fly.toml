@@ -1,0 +1,35 @@
+# Copiloto do merchandiser no Fly.io (deploy: `fly deploy`). Segredos fora daqui:
+#   fly secrets set ALGOLIA_APP_ID=... ALGOLIA_COPILOTO_KEY=...   (chave só com analytics e browse)
+app = "copiloto-loja-demo"
+primary_region = "iad"  # perto do cluster US da Algolia
+
+[build]
+
+[env]
+  ALGOLIA_INDEX = "produtos_ptbr"
+  ALGOLIA_INDEX_EN = "produtos_en"
+  ALGOLIA_ANALYTICS_REGIAO = "us"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  # suspende sem tráfego e volta em centenas de ms na primeira chamada (não dorme por minutos)
+  auto_stop_machines = "suspend"
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [http_service.concurrency]
+    type = "requests"
+    soft_limit = 20
+    hard_limit = 40
+
+  [[http_service.checks]]
+    grace_period = "15s"
+    interval = "30s"
+    method = "GET"
+    path = "/saude"
+    timeout = "5s"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"
