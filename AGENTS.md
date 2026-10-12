@@ -41,7 +41,7 @@ Demo pública de **busca agêntica para varejo de moda e calçados em português
 | `web/` | Loja em Next.js + `react-instantsearch` (+ widget `Chat` do Agent Studio) |
 | `agent/` | Instruções e configuração do agente do Agent Studio (versionadas; o dashboard é cópia) |
 | `copiloto/` | MCP do merchandiser (Python, SDK `mcp` 2.x, Streamable HTTP). Público no Fly.io (`Dockerfile` e `fly.toml` na raiz), sem login e só leitura em `/mcp`; em `/loja/mcp`, só a tool de aviso de estoque do assistente. Não se chama `mcp/` porque a pasta sombrearia o pacote `mcp` do SDK |
-| `sintetico/` | Tráfego sintético e declarado para o analytics (cenário à mão, `analyticsTags: sintetico`, chave própria que impõe a tag); agendado em `.github/workflows/`, desligado até a variável `TRAFEGO_SINTETICO=ligado` |
+| `sintetico/` | Tráfego sintético e declarado para o analytics (cenário à mão, `analyticsTags: sintetico`, chave própria que impõe a tag); agendado em `.github/workflows/trafego-sintetico.yml`, ligado na base pela variável `TRAFEGO_SINTETICO=ligado` |
 | `evals/` | Golden set de consultas em português (expectativas semânticas, não circulares) e relatórios por data |
 | `docs/` | Plano, handover, lições, fontes |
 | `data/` | Dataset bruto e intermediários. **Gitignored.** |
@@ -66,9 +66,9 @@ uv run python -m ingest.indexar --idioma en   # loja /en: produtos_en (mesmo obj
 uv run python -m evals.rodar                  # golden set pt: 1 multi-query = 34 buscas da cota
 uv run python -m evals.rodar --idioma en      # golden set en: 14 buscas
 uv run python -m sintetico.rodar              # ensaio do tráfego sintético; --aplicar gasta 11 buscas da cota
-uv run python -m copiloto                     # MCP do merchandiser em stdio (--http PORTA para HTTP)
-fly deploy --remote-only --ha=false           # copiloto público no Fly (app copiloto-loja-demo; só leitura)
-npm --prefix web run dev                      # loja local (build/lint: run build, run lint)
+uv run python -m copiloto                     # MCP do merchandiser em stdio (--http PORTA: HTTP em 127.0.0.1)
+fly deploy --remote-only --ha=false           # copiloto público no Fly (app copiloto-loja-demo)
+npm --prefix web run dev                      # loja local (run lint, run typecheck, run build: o mesmo do CI)
 ```
 
 ## Regras

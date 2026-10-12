@@ -149,6 +149,12 @@ Free**: habilitado e conectado no app da demo em 07/10/2026.
   chave pelo **`agentId`** (a prop `id` não muda isso); o cabeçalho do carrossel ("N of N results", "View all") é
   fixo em inglês, trocável pela prop `tools` com `createCarouselToolComponent`; feedback 👍/👎 é opt-in (`feedback`)
   e usaria a chave do search client.
+- **Tool MCP no agente** (12/10/2026): a tela "Configure MCP server" recebe a URL Streamable HTTP, lista as tools
+  do servidor para escolher e tem "Tool approval" ("Never require approval" usado aqui). No `GET` do agente aparece
+  como `type: mcp_tools`, com `url`, `transport: streamable_http` e `allowedTools`. O agente chamou a tool em
+  produção e a resposta chegou em 1,7 s, voltando da suspensão do Fly. Um servidor stateless com resposta JSON
+  (sem SSE) funcionou.
+- **Editor das instruções:** ao colar Markdown, tira os marcadores de lista ("-", "1."); o texto fica igual.
 
 ## Plugin de skills para Claude Code ([algolia/skills](https://github.com/algolia/skills), MIT)
 
